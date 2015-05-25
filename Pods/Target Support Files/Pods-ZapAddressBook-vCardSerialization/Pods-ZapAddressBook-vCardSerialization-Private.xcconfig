@@ -1,0 +1,6 @@
+#include "Pods-ZapAddressBook-vCardSerialization.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/vCardSerialization" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/VungleAdvertiserSDK" "${PODS_ROOT}/Headers/Public/iCloudDocumentSync" "${PODS_ROOT}/Headers/Public/vCardSerialization" "${PODS_ROOT}/Headers/Public/zipzap"
+OTHER_LDFLAGS = ${PODS_ZAPADDRESSBOOK_VCARDSERIALIZATION_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

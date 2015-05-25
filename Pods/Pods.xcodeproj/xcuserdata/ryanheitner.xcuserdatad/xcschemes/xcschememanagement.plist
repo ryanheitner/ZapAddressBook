@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ZapAddressBook-iCloudDocumentSync.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZapAddressBook-vCardSerialization.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZapAddressBook-zipzap.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZapAddressBook.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>233F647A4757DFED1B34281C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38355CBB32842FBFC4ACA786</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E4DA5AAEB3E959D9F2FAE99</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C58B2084DC1129C5690C9471</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

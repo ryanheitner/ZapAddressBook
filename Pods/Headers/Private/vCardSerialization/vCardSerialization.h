@@ -1,0 +1,1 @@
+../../../vCardSerialization/vCardSerialization/vCardSerialization.h

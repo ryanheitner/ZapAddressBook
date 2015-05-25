@@ -1,0 +1,25 @@
+PODS:
+  - iCloudDocumentSync (7.4.1)
+  - vCardSerialization (0.0.1)
+  - VungleAdvertiserSDK (3.0.12.1)
+  - zipzap (8.0.3):
+    - zipzap/c++ (= 8.0.3)
+    - zipzap/objc (= 8.0.3)
+    - zipzap/objc++ (= 8.0.3)
+  - zipzap/c++ (8.0.3)
+  - zipzap/objc (8.0.3)
+  - zipzap/objc++ (8.0.3)
+
+DEPENDENCIES:
+  - iCloudDocumentSync (~> 7.4)
+  - vCardSerialization (~> 0.0)
+  - VungleAdvertiserSDK (~> 3.0)
+  - zipzap (~> 8.0)
+
+SPEC CHECKSUMS:
+  iCloudDocumentSync: 961aac30ca09c221de4c236e94dae69912f2c589
+  vCardSerialization: 260b51c89d4319e3e909ffaf6492f92074067b1a
+  VungleAdvertiserSDK: 1050032171120efc92be981381b52e45c0164d51
+  zipzap: 888667fa52eb1799a32fa3ef8e77001356e796e4
+
+COCOAPODS: 0.36.3
