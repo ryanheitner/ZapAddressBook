@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let appID = "Your AppID Here"
+        let sdk : VungleSDK  = VungleSDK.sharedSDK()
+        // start vungle publisher library
+        sdk.startWithAppId(appID)
         return true
     }
 
