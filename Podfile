@@ -6,6 +6,9 @@ target 'ZapAddressBook' do
   pod 'iCloudDocumentSync', '~> 7.4'
   pod 'vCardSerialization', '~> 0.0'
   pod 'VungleAdvertiserSDK', '~> 3.0'
+  pod 'FlurrySDK', '~> 6.5'
+  pod 'Heyzap', '~> 8.2'
+  pod 'AdColony', '~> 2.5'
 end
 
 

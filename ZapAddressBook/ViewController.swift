@@ -12,7 +12,6 @@ import AddressBook
 import CloudKit
 
 
-
 func documentDir() -> NSURL {
     let fileManager                     = NSFileManager.defaultManager()
     let urls                            = fileManager.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
@@ -23,6 +22,9 @@ class ViewController: UIViewController,
     iCloudDelegate,
     ABPeoplePickerNavigationControllerDelegate
 {
+    var adEngineType: AppDelegate.adEngineType?
+
+    
     
     override func viewDidLoad() {
         // Setup iCloud
@@ -34,8 +36,25 @@ class ViewController: UIViewController,
     
     @IBAction func deleteButtonPushed() {
         var error: NSError
-        VungleSDK.sharedSDK().playAd(self, error: nil)
+        let appDelegate =  (UIApplication.sharedApplication().delegate as! AppDelegate)
+        switch appDelegate.adEngine!
+        {
+        case AppDelegate.adEngineType.Vungle.rawValue:
+            // Vungle
+            VungleSDK.sharedSDK().playAd(self, error: nil)
+        case AppDelegate.adEngineType.Flurry.rawValue:
+            println("flurry");
+        case AppDelegate.adEngineType.AppLovin.rawValue:       // applovin
+            println("AppLovin");
+        case AppDelegate.adEngineType.Heyzap.rawValue:
+            HZVideoAd.show()
+        default:
+            println("Something else")
+        }
+        //#define APP_DELEGATE ((HomeLyncAppDelegate *)[[UIApplication sharedApplication] delegate])
 
+        
+        return;
         ViewController.deleteAddressBook();
     }
     

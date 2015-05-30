@@ -7,655 +7,740 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00067721D055D5D256224DC3 /* ZZOldArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA8202616C45FBF15B6E65C /* ZZOldArchiveEntry.h */; };
-		0155F978226E4FA8D80BFABD /* ZZDataChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6A9171FC9B18B597F3BD96 /* ZZDataChannelOutput.h */; };
-		05ABDBAF209CC15189F2DF66 /* ZZArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D4C6175F22698E79CDA89C /* ZZArchive.h */; };
-		0C773B94B83808D9BF24A51B /* iCloud-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = A94A7EB917BC0C5BCF6C6AFF /* iCloud-Prefix.pch */; };
-		0E4593704CE04C06FF878F9D /* ZZInflateInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F8409AA82ED589F602D669 /* ZZInflateInputStream.h */; };
-		12E176D49F84A69F5ABBE853 /* zipzap.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B7F6781C47A7451BEC7BDE /* zipzap.h */; };
-		15130BC98BF1BA37EA1F9207 /* ZZStandardCryptoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0815225C9637E03BC08121 /* ZZStandardCryptoEngine.h */; };
-		1795D1C49057FD10BC28291B /* ZZAESDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FC7FBE6834F9DD9BDB2B1 /* ZZAESDecryptInputStream.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
-		1DE4269988F88BF3D8EDFC7C /* Pods-ZapAddressBook-zipzap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E886DD9897054BEC94D1B6 /* Pods-ZapAddressBook-zipzap-dummy.m */; };
-		229DAD262B871C7BA2E9BED0 /* ZZHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E93952A4766EC81A32D1255 /* ZZHeaders.h */; };
-		2312DCDE70D1222C0446A896 /* ZZAESDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = A29199279EA88464B324DA10 /* ZZAESDecryptInputStream.h */; };
-		254094AD26650181666D1B06 /* ZZAESDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = A29199279EA88464B324DA10 /* ZZAESDecryptInputStream.h */; };
-		263A9DF668B4F5FE1FE00418 /* Pods-ZapAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBBA7A5DB68C9BF1C7A6CE0 /* Pods-ZapAddressBook-dummy.m */; };
-		28B4ECA2C6728DE078DFAD0B /* ZZStoreOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E225DEA6F588F32F174725 /* ZZStoreOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		28B5C0303655601D7F427A84 /* ZZDataChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E1BEA872486CFC45824C4 /* ZZDataChannelOutput.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		2A3445FC16D1EADA65E12EDD /* iCloudDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7FC6C37D098CE0885BDC6E /* iCloudDocument.m */; };
-		2BAF79D807478C42F5AA2146 /* ZZInflateInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F8409AA82ED589F602D669 /* ZZInflateInputStream.h */; };
-		2D07E6C72E9F127BF44363D9 /* ZZOldArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2FF57B2657675EB27245071 /* ZZOldArchiveEntryWriter.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
-		30FD50C406EB9F46499B3887 /* ZZDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = F77995FABA82970AC2329518 /* ZZDataChannel.h */; };
-		33F6A3FB65D4285761E324DB /* ZZError.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BCFC7290D4B309EAE1F8E0 /* ZZError.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		3705B8E0396F37C874B2587F /* ZZFileChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF709100DFF1DD7C9883F4 /* ZZFileChannel.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		399E313373B817372E569F06 /* ZZArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE02182286783C65EFE2501 /* ZZArchiveEntryWriter.h */; };
-		3CFF33CA40660B5E7B07035A /* iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = FBFC467D1AF63E879E680276 /* iCloud.h */; };
-		409DB5E00882AE380B1F465F /* ZZStandardCryptoEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01B8836400C121F21D30B5BE /* ZZStandardCryptoEngine.cpp */; settings = {COMPILER_FLAGS = "-fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
-		447E601AB28C32272F08EEC2 /* ZZChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = D737002EADF7685C5E37B01A /* ZZChannel.h */; };
-		4636CA8928A8242C3E026FC8 /* ZZNewArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7796FA76E77BE4A618439B02 /* ZZNewArchiveEntry.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
-		47317A0D15D470177C292529 /* ZZStandardCryptoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0815225C9637E03BC08121 /* ZZStandardCryptoEngine.h */; };
-		4A7391881844758B56AE363B /* ZZArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE02182286783C65EFE2501 /* ZZArchiveEntryWriter.h */; };
-		4D06B0BB7FD0770CE7B3DB6B /* ZZChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D7521D23CED3E2261B8CBA /* ZZChannelOutput.h */; };
-		4D482E228FEB9AFEA90AC88A /* ZZNewArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = DC105127328B5211E7EA726D /* ZZNewArchiveEntry.h */; };
-		545409F5E680C3717B7C169E /* ZZChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = D737002EADF7685C5E37B01A /* ZZChannel.h */; };
-		54647A9E47D1E449F2CF4B36 /* ZZArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = E80BE52C7F57107296DBB235 /* ZZArchiveEntry.h */; };
-		557AF4620A9F0D58C5DFC303 /* zipzap.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B7F6781C47A7451BEC7BDE /* zipzap.h */; };
-		593B68C93D1070CD06B02E30 /* ZZStandardDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADF15DDB690380113134B39 /* ZZStandardDecryptInputStream.h */; };
-		59597594CB27A9D8BD155E41 /* ZZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 50066352DAB9F8FB5F918D52 /* ZZConstants.h */; };
-		597EDCBAAD7871E56EA30ECF /* ZZDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649417D0FE98B0919AABE3AB /* ZZDataProvider.h */; };
-		5A48A472EBA6B559E671CB04 /* ZZAESDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = A29199279EA88464B324DA10 /* ZZAESDecryptInputStream.h */; };
-		5B56C0CFF38D32AE9463E9B6 /* vCardSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EAD4E2BD00CB49C8AD3B8 /* vCardSerialization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5DB05C3A9EA044A146036D66 /* ZZScopeGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFD0BFEFBAB6DA07C2A07A5 /* ZZScopeGuard.h */; };
-		5F49CB56A1C5E90C6B65A8AD /* ZZFileChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 49470A7157D5447CFBE7982B /* ZZFileChannelOutput.h */; };
-		62D8F896FE00EA15FDA67F6B /* ZZDeflateOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D35F17E25D0BACD52B3FD63 /* ZZDeflateOutputStream.h */; };
-		68FFC8915CD952E96070BB59 /* ZZDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = F77995FABA82970AC2329518 /* ZZDataChannel.h */; };
-		6933120A3AAFFD704BE6409B /* ZZStoreOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D635B7990D34984C58194A /* ZZStoreOutputStream.h */; };
-		6963B5205BFCE716A21F5638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DE65310DC0F3D5C5E9993 /* Foundation.framework */; };
-		6BA21FC22DFEB1DD2C5D2C82 /* ZZFileChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 49470A7157D5447CFBE7982B /* ZZFileChannelOutput.h */; };
-		6D0CED1E0C1AA3C1C03A8871 /* ZZInflateInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F8409AA82ED589F602D669 /* ZZInflateInputStream.h */; };
-		728CF1F8A913F1E2840D60D8 /* ZZDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = F77995FABA82970AC2329518 /* ZZDataChannel.h */; };
-		730F1F7F635DAE1BAE6614E8 /* ZZHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E93952A4766EC81A32D1255 /* ZZHeaders.h */; };
-		74FFBB5039445A665A4941BB /* ZZStandardDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDB081A185E6D502C72F40 /* ZZStandardDecryptInputStream.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
-		75A26FBA728B714B955230A2 /* ZZArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = E80BE52C7F57107296DBB235 /* ZZArchiveEntry.h */; };
-		7B3E0490F7606086A8384C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DE65310DC0F3D5C5E9993 /* Foundation.framework */; };
-		7D13B225A282B4DE6E9EE1FE /* ZZStoreOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D635B7990D34984C58194A /* ZZStoreOutputStream.h */; };
-		7D8C8B020E313D53B842445D /* ZZDeflateOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D35F17E25D0BACD52B3FD63 /* ZZDeflateOutputStream.h */; };
-		7E257EBD258133F158BD2AE8 /* ZZNewArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC263FB1BC6F98062041BB2 /* ZZNewArchiveEntryWriter.h */; };
-		7EB7BCB962722CFB8F42E6FD /* ZZChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = D737002EADF7685C5E37B01A /* ZZChannel.h */; };
-		7F280FA5FD42DDE0A783E4DD /* ZZScopeGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFD0BFEFBAB6DA07C2A07A5 /* ZZScopeGuard.h */; };
-		82DCB6FF69BF47660F01F5D3 /* ZZFileChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 49470A7157D5447CFBE7982B /* ZZFileChannelOutput.h */; };
-		865B43509635BEB3B3E18B5C /* ZZError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7995BA3CDAB984E147AB3113 /* ZZError.h */; };
-		86AE191C291DEBCA4C07B0C0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829CAED62111F35015631391 /* ImageIO.framework */; };
-		8D5C52F1B96F7CA2AC893631 /* ZZScopeGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFD0BFEFBAB6DA07C2A07A5 /* ZZScopeGuard.h */; };
-		8D6EBB4A23180364AA2C343C /* ZZStandardDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADF15DDB690380113134B39 /* ZZStandardDecryptInputStream.h */; };
-		8DC995D68CE45C0ADFCE1D74 /* iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4107882AFAD532B727221799 /* iCloud.m */; };
-		929E510B792E30F3DFD60406 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B3DE7A2282529DFC7C41AA /* AddressBook.framework */; };
-		96378BFA14F3B22D9463F136 /* ZZArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = E80BE52C7F57107296DBB235 /* ZZArchiveEntry.h */; };
-		975841F8F5B134D57F19B620 /* ZZOldArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA8202616C45FBF15B6E65C /* ZZOldArchiveEntry.h */; };
-		9A30172D00FE73C08EE4C93C /* ZZOldArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 578CFE3F0E524EEBFAEE5D63 /* ZZOldArchiveEntryWriter.h */; };
-		9AB28BD6A0708441ACFCD17C /* ZZArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D4C6175F22698E79CDA89C /* ZZArchive.h */; };
-		9DA6A089FE2A5731C249284B /* ZZArchiveEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8E6FB0C923A006F9F1AE4F /* ZZArchiveEntry.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		9E257C7705F7C354C0ECB60B /* ZZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 50066352DAB9F8FB5F918D52 /* ZZConstants.h */; };
-		9EC711053C8984C2E8FBED33 /* ZZArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE02182286783C65EFE2501 /* ZZArchiveEntryWriter.h */; };
-		A259BF686CF5CCA36A2B697A /* ZZNewArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC263FB1BC6F98062041BB2 /* ZZNewArchiveEntryWriter.h */; };
-		A3685DF2509BE9A0059CF24D /* ZZStandardCryptoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0815225C9637E03BC08121 /* ZZStandardCryptoEngine.h */; };
-		A3E6C5DC1436C455BFEA1CF3 /* ZZHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E93952A4766EC81A32D1255 /* ZZHeaders.h */; };
-		A4CC1126585209FD2B842C59 /* ZZNewArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = DC105127328B5211E7EA726D /* ZZNewArchiveEntry.h */; };
-		A56EBCF29A7A4D38D3905AAE /* vCardSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C2C32E50BE92EC61DAAD1B /* vCardSerialization.h */; };
-		A7006554DCF7C8C06D4C382F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DE65310DC0F3D5C5E9993 /* Foundation.framework */; };
-		A7D4D3B2CA3FFB5DE52D1739 /* ZZDeflateOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2780234D81211DAD2C284BB9 /* ZZDeflateOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		AC657FDAA75519FD55802B83 /* ZZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A911B63DEBC5364BC42CAB36 /* ZZConstants.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		AE5C56B85E80D29A6B860C1A /* ZZChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D7521D23CED3E2261B8CBA /* ZZChannelOutput.h */; };
-		B04EB9533CC3EC50E8EBDD22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FC1878E44F4FA1F574A989 /* UIKit.framework */; };
-		B1F53759CC8112C9D3CF0523 /* ZZOldArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 578CFE3F0E524EEBFAEE5D63 /* ZZOldArchiveEntryWriter.h */; };
-		B4F2FBA2ED2D7EDC6A1DAA61 /* zipzap.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B7F6781C47A7451BEC7BDE /* zipzap.h */; };
-		B75876DD6251DBE1445F3AAC /* ZZDataChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D001165DE51BACFFDC36ED71 /* ZZDataChannel.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		BA0180B9D805A39840726134 /* ZZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 50066352DAB9F8FB5F918D52 /* ZZConstants.h */; };
-		BE14189A355470B82A999D72 /* ZZOldArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 578CFE3F0E524EEBFAEE5D63 /* ZZOldArchiveEntryWriter.h */; };
-		C159854F98B66A0D8A29009D /* ZZArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D4C6175F22698E79CDA89C /* ZZArchive.h */; };
-		C3DC2CA7FD1C25EBBFAD75FF /* ZZOldArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CAA03B5932629D55BAD84 /* ZZOldArchiveEntry.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
-		C768D9489664F4EC1D68C677 /* ZZFileChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 368113FB77E0E3A72D65DEC0 /* ZZFileChannel.h */; };
-		C771685FC79FC4E0B694438C /* ZZInflateInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478BDF44FA24F27CB9D1123 /* ZZInflateInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		C905F1A8B1343FDEF8043AF8 /* Pods-ZapAddressBook-vCardSerialization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4391BA1EA2FE5306602499A0 /* Pods-ZapAddressBook-vCardSerialization-dummy.m */; };
-		C9DDDFD949FF5D210E8DF179 /* ZZArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = E5E94BEAE397391EE251264C /* ZZArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
-		D62FA067C5348DE38102116F /* ZZNewArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = DC105127328B5211E7EA726D /* ZZNewArchiveEntry.h */; };
-		D68EFC78F3BFE99AB722D30D /* ZZChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D7521D23CED3E2261B8CBA /* ZZChannelOutput.h */; };
-		D8681C5AD494E814AD11C3AD /* ZZFileChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7421792E68BD4C59CDF12D /* ZZFileChannelOutput.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
-		D9C8EBB2062170BA2D05F24F /* ZZError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7995BA3CDAB984E147AB3113 /* ZZError.h */; };
-		E0B9559E58250EAA19193620 /* ZZFileChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 368113FB77E0E3A72D65DEC0 /* ZZFileChannel.h */; };
-		E14EAFE524C41780C09EB7F9 /* iCloudDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBDB7D2BB3C91C26069C78A /* iCloudDocument.h */; };
-		E1A77B12D61204BCDAF181E5 /* ZZDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649417D0FE98B0919AABE3AB /* ZZDataProvider.h */; };
-		E633DA9B786E3662F5D929A6 /* ZZDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 649417D0FE98B0919AABE3AB /* ZZDataProvider.h */; };
-		E7CAE95C6050543E4FD95E65 /* ZZFileChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 368113FB77E0E3A72D65DEC0 /* ZZFileChannel.h */; };
-		EB72D9129B39F1540D7E26D4 /* ZZDeflateOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D35F17E25D0BACD52B3FD63 /* ZZDeflateOutputStream.h */; };
-		EF472C9AF29AE63620EE02F1 /* ZZStoreOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D635B7990D34984C58194A /* ZZStoreOutputStream.h */; };
-		F0430536E92A8E2DA3444624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DE65310DC0F3D5C5E9993 /* Foundation.framework */; };
-		F5C24DD1F41D3EF95557AC74 /* ZZOldArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA8202616C45FBF15B6E65C /* ZZOldArchiveEntry.h */; };
-		F68D25E7B8783200202C8286 /* ZZError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7995BA3CDAB984E147AB3113 /* ZZError.h */; };
-		F6A12A3A906849F4455F018E /* ZZStandardDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADF15DDB690380113134B39 /* ZZStandardDecryptInputStream.h */; };
-		F8E6922E07185E27FBE61F9B /* ZZDataChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6A9171FC9B18B597F3BD96 /* ZZDataChannelOutput.h */; };
-		FAABE9BE25611CB6A3F4327A /* ZZNewArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC263FB1BC6F98062041BB2 /* ZZNewArchiveEntryWriter.h */; };
-		FC11789BC1A55DC1E2E9327F /* ZZNewArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 062CA38C41040EF288293A55 /* ZZNewArchiveEntryWriter.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
-		FD7BB6E5EA00ABC1B8DDA631 /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E19414B188203A55D582AC18 /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m */; };
-		FE8B98A4ECD06464E2ED0959 /* ZZDataChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6A9171FC9B18B597F3BD96 /* ZZDataChannelOutput.h */; };
+		008A63D7880376ABE1B4FCC5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A86A33C4BE8D335A1CEC88 /* Security.framework */; };
+		02ADB492D5A3A70C614C1819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0AE2A5608F3AEEAF8C65C /* Foundation.framework */; };
+		03BA343B99A068D71906E724 /* ZZDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040A6961A4074C207C05A83 /* ZZDataChannel.h */; };
+		05EB60DDDA219B707E5B30C9 /* zipzap.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFD78C7900F6F45CF78B020 /* zipzap.h */; };
+		07AAAA5C9D33D0A23D9C0BF5 /* ZZArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E3CBB461ABE3C83A3BF074 /* ZZArchiveEntryWriter.h */; };
+		08BEEB438FA430D53FF82CF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0AE2A5608F3AEEAF8C65C /* Foundation.framework */; };
+		09EB38D624C8B1D7A16683F4 /* ZZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A8067016631574F0252C5B /* ZZConstants.h */; };
+		0A99A1ADB348477551914F5E /* ZZAESDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBE532A042BEE366D6FE4E0 /* ZZAESDecryptInputStream.h */; };
+		0BE975CEE5A4EA59202C78B9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE06888295D96DB057F71C5B /* ImageIO.framework */; };
+		0D1B67BEEFBAC39A3CA1F957 /* ZZDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D31C96CBDDB3D2B03CAF78 /* ZZDataProvider.h */; };
+		101CA94CB1ABB38B004A7ACA /* ZZArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BAE1F7F6801F5A6DDAF970 /* ZZArchiveEntry.h */; };
+		102A8440C864A869B33CCDE1 /* ZZInflateInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 98953BF04E919253C30B3048 /* ZZInflateInputStream.h */; };
+		11FCD14FE1F77BF96D47532F /* ZZHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 555D139D23144D14A1E628B3 /* ZZHeaders.h */; };
+		1440555E037359A7626B749E /* ZZArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E3CBB461ABE3C83A3BF074 /* ZZArchiveEntryWriter.h */; };
+		14F4A3AEB9BB3D3599A756FD /* ZZScopeGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE61C4C692BEC3D7F269ABB /* ZZScopeGuard.h */; };
+		18509F5EFC213093FE47CD05 /* ZZStandardCryptoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B6FCE2BB94334CB44B029E /* ZZStandardCryptoEngine.h */; };
+		18E711712122152B351B0D3F /* iCloudDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A41F801687C2399A29F454D1 /* iCloudDocument.h */; };
+		194DBD26CE179C81EA69E070 /* ZZStoreOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FC9984097A317BF360165C /* ZZStoreOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		1A08A862F3566280C3386346 /* ZZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A8067016631574F0252C5B /* ZZConstants.h */; };
+		1BAF7FB8CE6729A44FFA10AF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01899A5380F0DD70B31A9B83 /* SystemConfiguration.framework */; };
+		1C0F480FDECCE8FA98BC75A0 /* ZZError.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5A4853BDCDB9DD10C237D1 /* ZZError.h */; };
+		1D1C7029DE2BB2C1731DC22D /* ZZInflateInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 98953BF04E919253C30B3048 /* ZZInflateInputStream.h */; };
+		1F8797BFDE07643AF6BE2D63 /* ZZNewArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B454672BE805831C645A8EE /* ZZNewArchiveEntry.h */; };
+		2026DFFB92FE85371A103635 /* ZZNewArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B454672BE805831C645A8EE /* ZZNewArchiveEntry.h */; };
+		216C568394504227D48BD64C /* ZZStandardCryptoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B6FCE2BB94334CB44B029E /* ZZStandardCryptoEngine.h */; };
+		21992462D8E1E4B9FAF234CC /* ZZStandardDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D18CBAEF9BA50C9F0AD5A183 /* ZZStandardDecryptInputStream.h */; };
+		23D72F562E9DDEAED5D7543A /* ZZDeflateOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = ED49DE5BEE796D6EA2224F9D /* ZZDeflateOutputStream.h */; };
+		2573BDA8E69730C5CB48FD40 /* ZZHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 555D139D23144D14A1E628B3 /* ZZHeaders.h */; };
+		27167188DAF6AB84AFB2296D /* ZZFileChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 1207631DC205776BAD30A881 /* ZZFileChannelOutput.h */; };
+		2952F50CDBBF4C447A103E42 /* ZZArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A8B67E3DA4CCA2F8547FF4 /* ZZArchive.h */; };
+		2BE397EBC3D3692A061A9AC2 /* ZZError.m in Sources */ = {isa = PBXBuildFile; fileRef = BA63C470A09E9EB675AD932E /* ZZError.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		2C21EBEEACAD145198A1F85E /* ZZChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2A080B673F7F3A014E179 /* ZZChannel.h */; };
+		2E17EA5CE8A9873ACB1850D7 /* ZZDeflateOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A20C25B5583CB18B2C6846F /* ZZDeflateOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		2ED1A1139873591479096768 /* ZZNewArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D866F7D29885777D16828B6 /* ZZNewArchiveEntryWriter.h */; };
+		312FC578B6817B9488296217 /* ZZArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A8B67E3DA4CCA2F8547FF4 /* ZZArchive.h */; };
+		32013597E6FF3799F84EF141 /* ZZStoreOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 86521B2317FB6AA14B00E560 /* ZZStoreOutputStream.h */; };
+		333D25A89AFC9B2A65642F8F /* ZZChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2A080B673F7F3A014E179 /* ZZChannel.h */; };
+		376AAC482B8C2D81A1F582B4 /* ZZNewArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D89B2862548639B272206 /* ZZNewArchiveEntryWriter.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
+		3980B1CAC57E353F1F2E54FC /* ZZOldArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD5A6364BD71006FE8FFCBD /* ZZOldArchiveEntryWriter.h */; };
+		399D5B5C9FE42E364032B5C7 /* ZZArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BAE1F7F6801F5A6DDAF970 /* ZZArchiveEntry.h */; };
+		3ABD5F7C9B3004A6FC869D10 /* ZZInflateInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A729B99DE9C2DBC10F638C /* ZZInflateInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		3CA3BBE03C40C8C26AD48B77 /* ZZStoreOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 86521B2317FB6AA14B00E560 /* ZZStoreOutputStream.h */; };
+		3CAF6E7646B6653256F57926 /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA998F4CA76D299E0175866 /* Flurry.h */; };
+		3E81C71F6DE6D1EE601BCFDB /* ZZArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BAE1F7F6801F5A6DDAF970 /* ZZArchiveEntry.h */; };
+		42BF3DC8AA8F44F3CC53301A /* ZZNewArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 584BBEC0E98E0A589DA174ED /* ZZNewArchiveEntry.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
+		49C93C6D2D12055DEAC93967 /* ZZDataChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = C83D1D5F6D63F7131EB4396A /* ZZDataChannelOutput.h */; };
+		55050DDD30F59C622A021DE4 /* ZZFileChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A2F95C33751235A1DC935A /* ZZFileChannelOutput.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		56828A695FB8315DE61CA042 /* ZZStandardDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 19EAC5F5915EDCC5081684B4 /* ZZStandardDecryptInputStream.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
+		58051EF4FE79EC53B4D0CED6 /* ZZOldArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD5A6364BD71006FE8FFCBD /* ZZOldArchiveEntryWriter.h */; };
+		5FC9413A57478B353460F1BD /* ZZArchiveEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC469BED63CB81931EADFAC /* ZZArchiveEntry.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		603D611C3512C0DA4AA20E8E /* ZZScopeGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE61C4C692BEC3D7F269ABB /* ZZScopeGuard.h */; };
+		614D45D0DE0C742933314FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0AE2A5608F3AEEAF8C65C /* Foundation.framework */; };
+		6354BDBB447D804620D28A18 /* ZZAESDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2C44A553321BDC53EC1D02F /* ZZAESDecryptInputStream.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
+		63F6BED4E0EA5D7373873F7B /* ZZError.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5A4853BDCDB9DD10C237D1 /* ZZError.h */; };
+		65B4FC59BE07EF3D504E8FEB /* ZZFileChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F54A278A4A0D88EA46708EA /* ZZFileChannel.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		66D4AA9E5FCEAFD39FDB012A /* ZZArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = B45A99AC05C78AEEC08B4CA4 /* ZZArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
+		6746F18965D96D54AE9B2566 /* ZZDeflateOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = ED49DE5BEE796D6EA2224F9D /* ZZDeflateOutputStream.h */; };
+		6C36C26BFF3949CB8DD1CCDF /* ZZFileChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 278F6B2004BCBA8FBDCADBC1 /* ZZFileChannel.h */; };
+		6F3AE62AF7DE48CB8EA6CEC4 /* ZZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 573684E89C3BC3AABC82F87A /* ZZConstants.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		74C8967C82FCD3E346A1E6B3 /* iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 8335C8CB293D501466FA37FE /* iCloud.h */; };
+		761D8D83964A2FD6C947AA49 /* ZZNewArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D866F7D29885777D16828B6 /* ZZNewArchiveEntryWriter.h */; };
+		76CC9A256B548F5D28E0FFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0AE2A5608F3AEEAF8C65C /* Foundation.framework */; };
+		793ECEAB46EF2A9215C3BD73 /* ZZStandardDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D18CBAEF9BA50C9F0AD5A183 /* ZZStandardDecryptInputStream.h */; };
+		870BA5B77AFDD78AA5CD3F5C /* zipzap.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFD78C7900F6F45CF78B020 /* zipzap.h */; };
+		8D2F108A10842D74A93AF001 /* vCardSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D828D8A1171096A87234425A /* vCardSerialization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E23745365FAA8FFC9F78491 /* ZZOldArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9642C85E553B50265F82ADC1 /* ZZOldArchiveEntry.h */; };
+		8FE353BECE6764EBEA72C342 /* ZZFileChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 1207631DC205776BAD30A881 /* ZZFileChannelOutput.h */; };
+		91BF0625BCAEFAB082CF4E46 /* ZZDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040A6961A4074C207C05A83 /* ZZDataChannel.h */; };
+		92585FB488BC13F68F2ABE6A /* vCardSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE5A14F2A55487B4D01742D /* vCardSerialization.h */; };
+		93034C52BD0A1D5A7852EC43 /* ZZStoreOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 86521B2317FB6AA14B00E560 /* ZZStoreOutputStream.h */; };
+		9364F99A761D995FCA78ABB9 /* ZZOldArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF8681282358824FBA58D8 /* ZZOldArchiveEntry.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
+		95A7CAE571F057B330959FBB /* ZZDataChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6E257D0EBE47538A7033A /* ZZDataChannel.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		9765A87BAB57B4B509A452B1 /* Pods-ZapAddressBook-FlurrySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5AF2A9AAFE79A1D4715143 /* Pods-ZapAddressBook-FlurrySDK-dummy.m */; };
+		99B7C796ADDAD6920CBA669C /* ZZAESDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBE532A042BEE366D6FE4E0 /* ZZAESDecryptInputStream.h */; };
+		9D235DBF95CAD0BFC92845B1 /* ZZOldArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F47F03BAEB2BCF1C8632093 /* ZZOldArchiveEntryWriter.mm */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
+		A1E354ABDD7F55585429F9D2 /* ZZAESDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBE532A042BEE366D6FE4E0 /* ZZAESDecryptInputStream.h */; };
+		A36F248F88A8B9FB3F305B6A /* ZZInflateInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 98953BF04E919253C30B3048 /* ZZInflateInputStream.h */; };
+		A901D3B66618B2F0D5F4F29B /* ZZDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D31C96CBDDB3D2B03CAF78 /* ZZDataProvider.h */; };
+		A9D342A39263BD6EB83411CC /* ZZOldArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9642C85E553B50265F82ADC1 /* ZZOldArchiveEntry.h */; };
+		AB11CD3F6917C7D0BBBE028C /* ZZChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2A080B673F7F3A014E179 /* ZZChannel.h */; };
+		ABB3DE5B114932DAD10817BC /* ZZStandardCryptoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B6FCE2BB94334CB44B029E /* ZZStandardCryptoEngine.h */; };
+		AE902A6CDF9A65313B5C80C9 /* ZZDataChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = C83D1D5F6D63F7131EB4396A /* ZZDataChannelOutput.h */; };
+		B3C9F4133F68197AB4520301 /* Pods-ZapAddressBook-vCardSerialization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E889CF4008489AED52D7C26B /* Pods-ZapAddressBook-vCardSerialization-dummy.m */; };
+		B76AEB27BABA17D035000356 /* ZZNewArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D866F7D29885777D16828B6 /* ZZNewArchiveEntryWriter.h */; };
+		B8091BFC4943FC487F02C6E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0AE2A5608F3AEEAF8C65C /* Foundation.framework */; };
+		BE55F94A3508DBF6A933075B /* ZZHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 555D139D23144D14A1E628B3 /* ZZHeaders.h */; };
+		BF83D0A71F7135AD6C8B8320 /* ZZChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A40B9907F328FB606DB6076 /* ZZChannelOutput.h */; };
+		C11C861389AAAD74C2C12503 /* Pods-ZapAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 418D031FEE159ABCA58FEF40 /* Pods-ZapAddressBook-dummy.m */; };
+		C2F8ABCE28568F7ADD3EE955 /* ZZChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A40B9907F328FB606DB6076 /* ZZChannelOutput.h */; };
+		C30BF9A8829A80ADABB22C10 /* ZZStandardCryptoEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 923E61EFAFB7FCCFF8D45AAB /* ZZStandardCryptoEngine.cpp */; settings = {COMPILER_FLAGS = "-fno-exceptions -std=c++11 -stdlib=libc++ -DOS_OBJECT_USE_OBJC=0"; }; };
+		C542CE76085B37EFBF080D20 /* Pods-ZapAddressBook-zipzap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BD180F639F60F1FF866E77 /* Pods-ZapAddressBook-zipzap-dummy.m */; };
+		C86C468E7DE03D0801DE279E /* ZZDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040A6961A4074C207C05A83 /* ZZDataChannel.h */; };
+		C86CCC684D6BCECB2711C8DB /* ZZDataChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB7447C29B22F64C0C911C1 /* ZZDataChannelOutput.m */; settings = {COMPILER_FLAGS = "-fno-objc-exceptions -std=c99 -DOS_OBJECT_USE_OBJC=0"; }; };
+		C8C25AAF64CDD6AF31EC8E53 /* ZZDeflateOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = ED49DE5BEE796D6EA2224F9D /* ZZDeflateOutputStream.h */; };
+		CD4B0A38110D1FB511D28013 /* iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E59485A062ACFF908A6CC6E /* iCloud.m */; };
+		CE3C695FE9AEA2065DD5A0E2 /* iCloud-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D94A32A7FC60B7BDAD33E /* iCloud-Prefix.pch */; };
+		CE5755C964ADC930A29BD283 /* ZZScopeGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE61C4C692BEC3D7F269ABB /* ZZScopeGuard.h */; };
+		CFAA2C7D2907AEA7CC77943D /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDC2E7E4A957A73A99E125 /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m */; };
+		D3814587D3105AC029474E4E /* ZZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A8067016631574F0252C5B /* ZZConstants.h */; };
+		D3FBA333364BA4457E6154AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2710ADB2AD9DD2C4A580ECC /* UIKit.framework */; };
+		D5575F1F21EAFD7A1F99BA65 /* ZZDataChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = C83D1D5F6D63F7131EB4396A /* ZZDataChannelOutput.h */; };
+		DC5F719A9F2B2E9A1BC901CC /* ZZNewArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B454672BE805831C645A8EE /* ZZNewArchiveEntry.h */; };
+		E06487695D01DFA8C91E78F1 /* ZZStandardDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D18CBAEF9BA50C9F0AD5A183 /* ZZStandardDecryptInputStream.h */; };
+		E09ACE4562DAFDF6A6BFE827 /* ZZFileChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 278F6B2004BCBA8FBDCADBC1 /* ZZFileChannel.h */; };
+		E641E4C942A96C84FDF25CEE /* ZZError.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5A4853BDCDB9DD10C237D1 /* ZZError.h */; };
+		E7F2F969EAB9B2C6D871D029 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2710ADB2AD9DD2C4A580ECC /* UIKit.framework */; };
+		E8236E7DFDF3F2EE4B009A9F /* iCloudDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 773B8BED349BECF3B82590FA /* iCloudDocument.m */; };
+		E83DFCF372690B7B0E2A16A3 /* ZZArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A8B67E3DA4CCA2F8547FF4 /* ZZArchive.h */; };
+		EAD1BFB26224179E36333829 /* ZZOldArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD5A6364BD71006FE8FFCBD /* ZZOldArchiveEntryWriter.h */; };
+		EAFEFD7CAB16D3CE738D6128 /* ZZFileChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 278F6B2004BCBA8FBDCADBC1 /* ZZFileChannel.h */; };
+		EDBB7F235CE8F443207B110C /* ZZDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D31C96CBDDB3D2B03CAF78 /* ZZDataProvider.h */; };
+		EF5760512583628B56D1717C /* zipzap.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFD78C7900F6F45CF78B020 /* zipzap.h */; };
+		FAC26ACD2311C4D17FDFB11A /* ZZChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A40B9907F328FB606DB6076 /* ZZChannelOutput.h */; };
+		FC0AF6E0A70F85E32F52665D /* ZZFileChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 1207631DC205776BAD30A881 /* ZZFileChannelOutput.h */; };
+		FC0DAF0B3B04A3CEBBB9864B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AAD6C26BDBC2200CA0FC73 /* AddressBook.framework */; };
+		FE13C2CE3207D95C71EC7126 /* ZZOldArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9642C85E553B50265F82ADC1 /* ZZOldArchiveEntry.h */; };
+		FE57A0D92DFF6968256E4AB6 /* ZZArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E3CBB461ABE3C83A3BF074 /* ZZArchiveEntryWriter.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		92FF0355DA774CD8C4EE4F73 /* PBXContainerItemProxy */ = {
+		01F2D84B77BF9CE832DFE716 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E24DC634E0C36D3195A48F1F /* Project object */;
+			containerPortal = 44A84CDB0AA9134469BC808A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E4DA5AAEB3E959D9F2FAE99;
+			remoteGlobalIDString = 88035A576BFB6836DF6995A3;
+			remoteInfo = "Pods-ZapAddressBook-FlurrySDK";
+		};
+		04AF5728AE44B0D92E8CA860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A84CDB0AA9134469BC808A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E0839A9AC9C028D15A0958;
 			remoteInfo = "Pods-ZapAddressBook-iCloudDocumentSync";
 		};
-		DCF158787273EE4DD1FDD159 /* PBXContainerItemProxy */ = {
+		7A0AE154FE4EF5A71F794F10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E24DC634E0C36D3195A48F1F /* Project object */;
+			containerPortal = 44A84CDB0AA9134469BC808A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 233F647A4757DFED1B34281C;
+			remoteGlobalIDString = 87BB7CCB59AEF58344E236A9;
 			remoteInfo = "Pods-ZapAddressBook-vCardSerialization";
 		};
-		FAF92BE6C0E141B4975F25D4 /* PBXContainerItemProxy */ = {
+		B142FA653125EBA18B6856CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E24DC634E0C36D3195A48F1F /* Project object */;
+			containerPortal = 44A84CDB0AA9134469BC808A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 38355CBB32842FBFC4ACA786;
+			remoteGlobalIDString = B406DBEF10BF77381804EEBF;
 			remoteInfo = "Pods-ZapAddressBook-zipzap";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B8836400C121F21D30B5BE /* ZZStandardCryptoEngine.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ZZStandardCryptoEngine.cpp; path = zipzap/ZZStandardCryptoEngine.cpp; sourceTree = "<group>"; };
-		0478BDF44FA24F27CB9D1123 /* ZZInflateInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZInflateInputStream.m; path = zipzap/ZZInflateInputStream.m; sourceTree = "<group>"; };
-		062CA38C41040EF288293A55 /* ZZNewArchiveEntryWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZNewArchiveEntryWriter.mm; path = zipzap/ZZNewArchiveEntryWriter.mm; sourceTree = "<group>"; };
-		07B3DE7A2282529DFC7C41AA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
-		0B325C6CC91BF0BDC7E7BC03 /* Pods-ZapAddressBook-vCardSerialization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-vCardSerialization.xcconfig"; sourceTree = "<group>"; };
-		0F3595AA49697D8A1EAC4C09 /* Pods-ZapAddressBook-vCardSerialization-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-vCardSerialization-Private.xcconfig"; sourceTree = "<group>"; };
-		1196D85157F7D58F9CC9D198 /* libPods-ZapAddressBook-iCloudDocumentSync.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZapAddressBook-iCloudDocumentSync.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ADF15DDB690380113134B39 /* ZZStandardDecryptInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStandardDecryptInputStream.h; path = zipzap/ZZStandardDecryptInputStream.h; sourceTree = "<group>"; };
-		1BDDB081A185E6D502C72F40 /* ZZStandardDecryptInputStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZStandardDecryptInputStream.mm; path = zipzap/ZZStandardDecryptInputStream.mm; sourceTree = "<group>"; };
-		1C7FC6C37D098CE0885BDC6E /* iCloudDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCloudDocument.m; path = iCloud/iCloudDocument.m; sourceTree = "<group>"; };
-		1D35F17E25D0BACD52B3FD63 /* ZZDeflateOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDeflateOutputStream.h; path = zipzap/ZZDeflateOutputStream.h; sourceTree = "<group>"; };
-		1FFF709100DFF1DD7C9883F4 /* ZZFileChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZFileChannel.m; path = zipzap/ZZFileChannel.m; sourceTree = "<group>"; };
-		20627FEAADFDEDFA5598C738 /* Pods-ZapAddressBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZapAddressBook-acknowledgements.markdown"; sourceTree = "<group>"; };
-		221F86A9A481D34A3B33041A /* Pods-ZapAddressBook-vCardSerialization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZapAddressBook-vCardSerialization-prefix.pch"; sourceTree = "<group>"; };
-		2719C7580700FFD230F01F30 /* libPods-ZapAddressBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZapAddressBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2780234D81211DAD2C284BB9 /* ZZDeflateOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDeflateOutputStream.m; path = zipzap/ZZDeflateOutputStream.m; sourceTree = "<group>"; };
-		2EBBA7A5DB68C9BF1C7A6CE0 /* Pods-ZapAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZapAddressBook-dummy.m"; sourceTree = "<group>"; };
-		2F9FC7FBE6834F9DD9BDB2B1 /* ZZAESDecryptInputStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZAESDecryptInputStream.mm; path = zipzap/ZZAESDecryptInputStream.mm; sourceTree = "<group>"; };
-		348DE65310DC0F3D5C5E9993 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3672FFB54408AA9807AD84B3 /* Pods-ZapAddressBook-zipzap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZapAddressBook-zipzap-prefix.pch"; sourceTree = "<group>"; };
-		368113FB77E0E3A72D65DEC0 /* ZZFileChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZFileChannel.h; path = zipzap/ZZFileChannel.h; sourceTree = "<group>"; };
-		37FC1878E44F4FA1F574A989 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		3A3DAD399A2071F2F4E59542 /* Pods-ZapAddressBook-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZapAddressBook-environment.h"; sourceTree = "<group>"; };
-		3DF1C8F7AC48C5D005B8F3A1 /* vg_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_close.png; path = VungleSDK.embeddedframework/Resources/vg_close.png; sourceTree = "<group>"; };
-		3F0815225C9637E03BC08121 /* ZZStandardCryptoEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStandardCryptoEngine.h; path = zipzap/ZZStandardCryptoEngine.h; sourceTree = "<group>"; };
-		4107882AFAD532B727221799 /* iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCloud.m; path = iCloud/iCloud.m; sourceTree = "<group>"; };
-		41D7521D23CED3E2261B8CBA /* ZZChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZChannelOutput.h; path = zipzap/ZZChannelOutput.h; sourceTree = "<group>"; };
-		42BE79F22CEA44479BF1F36D /* libPods-ZapAddressBook-vCardSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZapAddressBook-vCardSerialization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4391BA1EA2FE5306602499A0 /* Pods-ZapAddressBook-vCardSerialization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZapAddressBook-vCardSerialization-dummy.m"; sourceTree = "<group>"; };
-		48D4C6175F22698E79CDA89C /* ZZArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchive.h; path = zipzap/ZZArchive.h; sourceTree = "<group>"; };
-		49470A7157D5447CFBE7982B /* ZZFileChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZFileChannelOutput.h; path = zipzap/ZZFileChannelOutput.h; sourceTree = "<group>"; };
-		4A6AD864B31AFDBA46105EC9 /* Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig"; sourceTree = "<group>"; };
-		4AFD0BFEFBAB6DA07C2A07A5 /* ZZScopeGuard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZScopeGuard.h; path = zipzap/ZZScopeGuard.h; sourceTree = "<group>"; };
-		4B44259245E968116F2CAC42 /* Pods-ZapAddressBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZapAddressBook-acknowledgements.plist"; sourceTree = "<group>"; };
-		50066352DAB9F8FB5F918D52 /* ZZConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZConstants.h; path = zipzap/ZZConstants.h; sourceTree = "<group>"; };
-		542808F7D70250606ED121D7 /* Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch"; sourceTree = "<group>"; };
-		56A0C308108034EC5093BA54 /* Pods-ZapAddressBook-zipzap-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-zipzap-Private.xcconfig"; sourceTree = "<group>"; };
-		578CFE3F0E524EEBFAEE5D63 /* ZZOldArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZOldArchiveEntryWriter.h; path = zipzap/ZZOldArchiveEntryWriter.h; sourceTree = "<group>"; };
-		61E225DEA6F588F32F174725 /* ZZStoreOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZStoreOutputStream.m; path = zipzap/ZZStoreOutputStream.m; sourceTree = "<group>"; };
-		649417D0FE98B0919AABE3AB /* ZZDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataProvider.h; path = zipzap/ZZDataProvider.h; sourceTree = "<group>"; };
-		6BC263FB1BC6F98062041BB2 /* ZZNewArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNewArchiveEntryWriter.h; path = zipzap/ZZNewArchiveEntryWriter.h; sourceTree = "<group>"; };
-		6C6A9171FC9B18B597F3BD96 /* ZZDataChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataChannelOutput.h; path = zipzap/ZZDataChannelOutput.h; sourceTree = "<group>"; };
-		6CFE1E2EBC8A226D6D23C263 /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_on.png; path = VungleSDK.embeddedframework/Resources/vg_mute_on.png; sourceTree = "<group>"; };
-		6FA8202616C45FBF15B6E65C /* ZZOldArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZOldArchiveEntry.h; path = zipzap/ZZOldArchiveEntry.h; sourceTree = "<group>"; };
-		7796FA76E77BE4A618439B02 /* ZZNewArchiveEntry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZNewArchiveEntry.mm; path = zipzap/ZZNewArchiveEntry.mm; sourceTree = "<group>"; };
-		780B93D9346FD6CA64FCE251 /* __vungle.db */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = __vungle.db; path = VungleSDK.embeddedframework/Resources/__vungle.db; sourceTree = "<group>"; };
-		7995BA3CDAB984E147AB3113 /* ZZError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZError.h; path = zipzap/ZZError.h; sourceTree = "<group>"; };
-		829CAED62111F35015631391 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		8C08ED8361789AD32C9F19C2 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = VungleSDK.embeddedframework/VungleSDK.framework; sourceTree = "<group>"; };
-		8E8E6FB0C923A006F9F1AE4F /* ZZArchiveEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZArchiveEntry.m; path = zipzap/ZZArchiveEntry.m; sourceTree = "<group>"; };
-		8E93952A4766EC81A32D1255 /* ZZHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZHeaders.h; path = zipzap/ZZHeaders.h; sourceTree = "<group>"; };
-		93DD69692FDECAE5802760A7 /* Pods-ZapAddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook.release.xcconfig"; sourceTree = "<group>"; };
-		9CE02182286783C65EFE2501 /* ZZArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchiveEntryWriter.h; path = zipzap/ZZArchiveEntryWriter.h; sourceTree = "<group>"; };
-		9D5CAA03B5932629D55BAD84 /* ZZOldArchiveEntry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZOldArchiveEntry.mm; path = zipzap/ZZOldArchiveEntry.mm; sourceTree = "<group>"; };
-		A0F8409AA82ED589F602D669 /* ZZInflateInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZInflateInputStream.h; path = zipzap/ZZInflateInputStream.h; sourceTree = "<group>"; };
-		A29199279EA88464B324DA10 /* ZZAESDecryptInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZAESDecryptInputStream.h; path = zipzap/ZZAESDecryptInputStream.h; sourceTree = "<group>"; };
-		A911B63DEBC5364BC42CAB36 /* ZZConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZConstants.m; path = zipzap/ZZConstants.m; sourceTree = "<group>"; };
-		A94A7EB917BC0C5BCF6C6AFF /* iCloud-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "iCloud-Prefix.pch"; path = "iCloud/iCloud-Prefix.pch"; sourceTree = "<group>"; };
-		AA0F0905643F464124A3DD7A /* Pods-ZapAddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook.debug.xcconfig"; sourceTree = "<group>"; };
-		B2A013AC9BBAA184333C1E87 /* Pods-ZapAddressBook-zipzap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-zipzap.xcconfig"; sourceTree = "<group>"; };
-		B63EAD4E2BD00CB49C8AD3B8 /* vCardSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = vCardSerialization.m; path = vCardSerialization/vCardSerialization.m; sourceTree = "<group>"; };
-		B9E886DD9897054BEC94D1B6 /* Pods-ZapAddressBook-zipzap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZapAddressBook-zipzap-dummy.m"; sourceTree = "<group>"; };
-		C1B7F6781C47A7451BEC7BDE /* zipzap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zipzap.h; path = zipzap/zipzap.h; sourceTree = "<group>"; };
-		C5D635B7990D34984C58194A /* ZZStoreOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStoreOutputStream.h; path = zipzap/ZZStoreOutputStream.h; sourceTree = "<group>"; };
-		CAAB13C87D5ACD7AFC9B0872 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CC3E1BEA872486CFC45824C4 /* ZZDataChannelOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDataChannelOutput.m; path = zipzap/ZZDataChannelOutput.m; sourceTree = "<group>"; };
-		CE7421792E68BD4C59CDF12D /* ZZFileChannelOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZFileChannelOutput.m; path = zipzap/ZZFileChannelOutput.m; sourceTree = "<group>"; };
-		CF381205662A541D4B6962EA /* vg_mute_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_off.png; path = VungleSDK.embeddedframework/Resources/vg_mute_off.png; sourceTree = "<group>"; };
-		D001165DE51BACFFDC36ED71 /* ZZDataChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDataChannel.m; path = zipzap/ZZDataChannel.m; sourceTree = "<group>"; };
-		D737002EADF7685C5E37B01A /* ZZChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZChannel.h; path = zipzap/ZZChannel.h; sourceTree = "<group>"; };
-		DC105127328B5211E7EA726D /* ZZNewArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNewArchiveEntry.h; path = zipzap/ZZNewArchiveEntry.h; sourceTree = "<group>"; };
-		DE4BD06A789BFEBEDB4DD84B /* Pods-ZapAddressBook-iCloudDocumentSync.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-iCloudDocumentSync.xcconfig"; sourceTree = "<group>"; };
-		DED27742358B7A091DF46FE1 /* Pods-ZapAddressBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZapAddressBook-resources.sh"; sourceTree = "<group>"; };
-		E19414B188203A55D582AC18 /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZapAddressBook-iCloudDocumentSync-dummy.m"; sourceTree = "<group>"; };
-		E2C2C32E50BE92EC61DAAD1B /* vCardSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vCardSerialization.h; path = vCardSerialization/vCardSerialization.h; sourceTree = "<group>"; };
-		E5E94BEAE397391EE251264C /* ZZArchive.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZArchive.mm; path = zipzap/ZZArchive.mm; sourceTree = "<group>"; };
-		E80BE52C7F57107296DBB235 /* ZZArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchiveEntry.h; path = zipzap/ZZArchiveEntry.h; sourceTree = "<group>"; };
-		EE6CB93451CFBAD1B8860F6D /* libPods-ZapAddressBook-zipzap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZapAddressBook-zipzap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2BCFC7290D4B309EAE1F8E0 /* ZZError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZError.m; path = zipzap/ZZError.m; sourceTree = "<group>"; };
-		F2FF57B2657675EB27245071 /* ZZOldArchiveEntryWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZOldArchiveEntryWriter.mm; path = zipzap/ZZOldArchiveEntryWriter.mm; sourceTree = "<group>"; };
-		F77995FABA82970AC2329518 /* ZZDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataChannel.h; path = zipzap/ZZDataChannel.h; sourceTree = "<group>"; };
-		FBFC467D1AF63E879E680276 /* iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCloud.h; path = iCloud/iCloud.h; sourceTree = "<group>"; };
-		FCC446CD1986D3B8555E7EDB /* vg_timer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_timer.png; path = VungleSDK.embeddedframework/Resources/vg_timer.png; sourceTree = "<group>"; };
-		FEFC835AE1B438BEBDDB62D0 /* vg_cta.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_cta.png; path = VungleSDK.embeddedframework/Resources/vg_cta.png; sourceTree = "<group>"; };
-		FFBDB7D2BB3C91C26069C78A /* iCloudDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCloudDocument.h; path = iCloud/iCloudDocument.h; sourceTree = "<group>"; };
+		01899A5380F0DD70B31A9B83 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		0440B92B3EC445209F7D9E79 /* Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig"; sourceTree = "<group>"; };
+		06D61A0B16F6596ED8E9BD37 /* Pods-ZapAddressBook-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZapAddressBook-environment.h"; sourceTree = "<group>"; };
+		08A2F95C33751235A1DC935A /* ZZFileChannelOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZFileChannelOutput.m; path = zipzap/ZZFileChannelOutput.m; sourceTree = "<group>"; };
+		0AD6E257D0EBE47538A7033A /* ZZDataChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDataChannel.m; path = zipzap/ZZDataChannel.m; sourceTree = "<group>"; };
+		0E0593D39461F421796A247A /* __vungle.db */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = __vungle.db; path = VungleSDK.embeddedframework/Resources/__vungle.db; sourceTree = "<group>"; };
+		0EBE532A042BEE366D6FE4E0 /* ZZAESDecryptInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZAESDecryptInputStream.h; path = zipzap/ZZAESDecryptInputStream.h; sourceTree = "<group>"; };
+		0EEEFCF46C0208C5B4085601 /* vg_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_close.png; path = VungleSDK.embeddedframework/Resources/vg_close.png; sourceTree = "<group>"; };
+		0F14564750B9FCEE147DE16A /* Pods-ZapAddressBook-vCardSerialization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZapAddressBook-vCardSerialization-prefix.pch"; sourceTree = "<group>"; };
+		1207631DC205776BAD30A881 /* ZZFileChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZFileChannelOutput.h; path = zipzap/ZZFileChannelOutput.h; sourceTree = "<group>"; };
+		19A86A33C4BE8D335A1CEC88 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		19EAC5F5915EDCC5081684B4 /* ZZStandardDecryptInputStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZStandardDecryptInputStream.mm; path = zipzap/ZZStandardDecryptInputStream.mm; sourceTree = "<group>"; };
+		1A2F17C406FD19CE72B22D92 /* Pods-ZapAddressBook-iCloudDocumentSync.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-iCloudDocumentSync.xcconfig"; sourceTree = "<group>"; };
+		1A33FD5A30567819999DB324 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = VungleSDK.embeddedframework/VungleSDK.framework; sourceTree = "<group>"; };
+		1A38DA4BECE4B537A2D63AAF /* Pods-ZapAddressBook-FlurrySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-FlurrySDK.xcconfig"; sourceTree = "<group>"; };
+		1D3D94A32A7FC60B7BDAD33E /* iCloud-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "iCloud-Prefix.pch"; path = "iCloud/iCloud-Prefix.pch"; sourceTree = "<group>"; };
+		1F47F03BAEB2BCF1C8632093 /* ZZOldArchiveEntryWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZOldArchiveEntryWriter.mm; path = zipzap/ZZOldArchiveEntryWriter.mm; sourceTree = "<group>"; };
+		1F5AF2A9AAFE79A1D4715143 /* Pods-ZapAddressBook-FlurrySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZapAddressBook-FlurrySDK-dummy.m"; sourceTree = "<group>"; };
+		25A8067016631574F0252C5B /* ZZConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZConstants.h; path = zipzap/ZZConstants.h; sourceTree = "<group>"; };
+		278F6B2004BCBA8FBDCADBC1 /* ZZFileChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZFileChannel.h; path = zipzap/ZZFileChannel.h; sourceTree = "<group>"; };
+		29812B70CC6C02E8A9C348AC /* Pods-ZapAddressBook-zipzap-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-zipzap-Private.xcconfig"; sourceTree = "<group>"; };
+		2AE61C4C692BEC3D7F269ABB /* ZZScopeGuard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZScopeGuard.h; path = zipzap/ZZScopeGuard.h; sourceTree = "<group>"; };
+		2D69E1FDE3E094CA54CB302A /* Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch"; sourceTree = "<group>"; };
+		305C0B139BF154FCEF11D9D3 /* Pods-ZapAddressBook-FlurrySDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-FlurrySDK-Private.xcconfig"; sourceTree = "<group>"; };
+		3B97B920A49A9800492529CE /* libFlurry_6.5.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_6.5.0.a; path = Flurry/libFlurry_6.5.0.a; sourceTree = "<group>"; };
+		3D866F7D29885777D16828B6 /* ZZNewArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNewArchiveEntryWriter.h; path = zipzap/ZZNewArchiveEntryWriter.h; sourceTree = "<group>"; };
+		3E7D89B2862548639B272206 /* ZZNewArchiveEntryWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZNewArchiveEntryWriter.mm; path = zipzap/ZZNewArchiveEntryWriter.mm; sourceTree = "<group>"; };
+		3F54A278A4A0D88EA46708EA /* ZZFileChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZFileChannel.m; path = zipzap/ZZFileChannel.m; sourceTree = "<group>"; };
+		4040A6961A4074C207C05A83 /* ZZDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataChannel.h; path = zipzap/ZZDataChannel.h; sourceTree = "<group>"; };
+		40BD180F639F60F1FF866E77 /* Pods-ZapAddressBook-zipzap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZapAddressBook-zipzap-dummy.m"; sourceTree = "<group>"; };
+		418D031FEE159ABCA58FEF40 /* Pods-ZapAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZapAddressBook-dummy.m"; sourceTree = "<group>"; };
+		46DFE2F9767629645E17A5D0 /* Pods-ZapAddressBook-zipzap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZapAddressBook-zipzap-prefix.pch"; sourceTree = "<group>"; };
+		48B6FCE2BB94334CB44B029E /* ZZStandardCryptoEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStandardCryptoEngine.h; path = zipzap/ZZStandardCryptoEngine.h; sourceTree = "<group>"; };
+		4DA998F4CA76D299E0175866 /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
+		4E59485A062ACFF908A6CC6E /* iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCloud.m; path = iCloud/iCloud.m; sourceTree = "<group>"; };
+		52FC38A808D7DDF77C30BE25 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		555D139D23144D14A1E628B3 /* ZZHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZHeaders.h; path = zipzap/ZZHeaders.h; sourceTree = "<group>"; };
+		56FC9984097A317BF360165C /* ZZStoreOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZStoreOutputStream.m; path = zipzap/ZZStoreOutputStream.m; sourceTree = "<group>"; };
+		573684E89C3BC3AABC82F87A /* ZZConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZConstants.m; path = zipzap/ZZConstants.m; sourceTree = "<group>"; };
+		584BBEC0E98E0A589DA174ED /* ZZNewArchiveEntry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZNewArchiveEntry.mm; path = zipzap/ZZNewArchiveEntry.mm; sourceTree = "<group>"; };
+		58F7526F748D2A49ABC443BE /* vg_cta.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_cta.png; path = VungleSDK.embeddedframework/Resources/vg_cta.png; sourceTree = "<group>"; };
+		5A20C25B5583CB18B2C6846F /* ZZDeflateOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDeflateOutputStream.m; path = zipzap/ZZDeflateOutputStream.m; sourceTree = "<group>"; };
+		5BB5C449382E54832D36670B /* Pods-ZapAddressBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZapAddressBook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6190187415857AB95C31FA57 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeyzapAds.framework; sourceTree = "<group>"; };
+		66E3CBB461ABE3C83A3BF074 /* ZZArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchiveEntryWriter.h; path = zipzap/ZZArchiveEntryWriter.h; sourceTree = "<group>"; };
+		6EAD690F55ECC1EB8E5E7C97 /* Pods-ZapAddressBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZapAddressBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		70E8BC5FAF2CB70300A81B9F /* libPods-ZapAddressBook-vCardSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZapAddressBook-vCardSerialization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A8B67E3DA4CCA2F8547FF4 /* ZZArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchive.h; path = zipzap/ZZArchive.h; sourceTree = "<group>"; };
+		773B8BED349BECF3B82590FA /* iCloudDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCloudDocument.m; path = iCloud/iCloudDocument.m; sourceTree = "<group>"; };
+		7AD5A6364BD71006FE8FFCBD /* ZZOldArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZOldArchiveEntryWriter.h; path = zipzap/ZZOldArchiveEntryWriter.h; sourceTree = "<group>"; };
+		7B454672BE805831C645A8EE /* ZZNewArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNewArchiveEntry.h; path = zipzap/ZZNewArchiveEntry.h; sourceTree = "<group>"; };
+		7FDF8681282358824FBA58D8 /* ZZOldArchiveEntry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZOldArchiveEntry.mm; path = zipzap/ZZOldArchiveEntry.mm; sourceTree = "<group>"; };
+		81D31C96CBDDB3D2B03CAF78 /* ZZDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataProvider.h; path = zipzap/ZZDataProvider.h; sourceTree = "<group>"; };
+		8335C8CB293D501466FA37FE /* iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCloud.h; path = iCloud/iCloud.h; sourceTree = "<group>"; };
+		85C7325EB68E524A46E4D4CC /* Pods-ZapAddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook.debug.xcconfig"; sourceTree = "<group>"; };
+		86521B2317FB6AA14B00E560 /* ZZStoreOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStoreOutputStream.h; path = zipzap/ZZStoreOutputStream.h; sourceTree = "<group>"; };
+		8E614549ED093DA84C4ACDD3 /* vg_timer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_timer.png; path = VungleSDK.embeddedframework/Resources/vg_timer.png; sourceTree = "<group>"; };
+		923E61EFAFB7FCCFF8D45AAB /* ZZStandardCryptoEngine.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ZZStandardCryptoEngine.cpp; path = zipzap/ZZStandardCryptoEngine.cpp; sourceTree = "<group>"; };
+		93DDC2E7E4A957A73A99E125 /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZapAddressBook-iCloudDocumentSync-dummy.m"; sourceTree = "<group>"; };
+		9642C85E553B50265F82ADC1 /* ZZOldArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZOldArchiveEntry.h; path = zipzap/ZZOldArchiveEntry.h; sourceTree = "<group>"; };
+		98953BF04E919253C30B3048 /* ZZInflateInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZInflateInputStream.h; path = zipzap/ZZInflateInputStream.h; sourceTree = "<group>"; };
+		9A40B9907F328FB606DB6076 /* ZZChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZChannelOutput.h; path = zipzap/ZZChannelOutput.h; sourceTree = "<group>"; };
+		A41F801687C2399A29F454D1 /* iCloudDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCloudDocument.h; path = iCloud/iCloudDocument.h; sourceTree = "<group>"; };
+		A470A4921615DCB381E36054 /* libPods-ZapAddressBook-FlurrySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZapAddressBook-FlurrySDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A729B99DE9C2DBC10F638C /* ZZInflateInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZInflateInputStream.m; path = zipzap/ZZInflateInputStream.m; sourceTree = "<group>"; };
+		AB2AAD7B588CD09C94B3326F /* libPods-ZapAddressBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZapAddressBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2710ADB2AD9DD2C4A580ECC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B45A99AC05C78AEEC08B4CA4 /* ZZArchive.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZArchive.mm; path = zipzap/ZZArchive.mm; sourceTree = "<group>"; };
+		B551A85732784CDD757F7DE8 /* Pods-ZapAddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook.release.xcconfig"; sourceTree = "<group>"; };
+		BA63C470A09E9EB675AD932E /* ZZError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZError.m; path = zipzap/ZZError.m; sourceTree = "<group>"; };
+		BDC469BED63CB81931EADFAC /* ZZArchiveEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZArchiveEntry.m; path = zipzap/ZZArchiveEntry.m; sourceTree = "<group>"; };
+		BF3DCBDDDDD0BAD3895664C8 /* Pods-ZapAddressBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZapAddressBook-resources.sh"; sourceTree = "<group>"; };
+		C83D1D5F6D63F7131EB4396A /* ZZDataChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataChannelOutput.h; path = zipzap/ZZDataChannelOutput.h; sourceTree = "<group>"; };
+		CB0D4FBD8BC4C2851F56FFB5 /* Pods-ZapAddressBook-vCardSerialization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-vCardSerialization.xcconfig"; sourceTree = "<group>"; };
+		D18CBAEF9BA50C9F0AD5A183 /* ZZStandardDecryptInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStandardDecryptInputStream.h; path = zipzap/ZZStandardDecryptInputStream.h; sourceTree = "<group>"; };
+		D3A7055B9A9B59FE7B21A596 /* libPods-ZapAddressBook-iCloudDocumentSync.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZapAddressBook-iCloudDocumentSync.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AAD6C26BDBC2200CA0FC73 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		D828D8A1171096A87234425A /* vCardSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = vCardSerialization.m; path = vCardSerialization/vCardSerialization.m; sourceTree = "<group>"; };
+		D93944B9DEAEF1E6A9D6E0FD /* Pods-ZapAddressBook-zipzap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-zipzap.xcconfig"; sourceTree = "<group>"; };
+		D9F2A080B673F7F3A014E179 /* ZZChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZChannel.h; path = zipzap/ZZChannel.h; sourceTree = "<group>"; };
+		DA3579D3A1DA0CA9EB496002 /* vg_mute_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_off.png; path = VungleSDK.embeddedframework/Resources/vg_mute_off.png; sourceTree = "<group>"; };
+		DA5A4853BDCDB9DD10C237D1 /* ZZError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZError.h; path = zipzap/ZZError.h; sourceTree = "<group>"; };
+		DDB7447C29B22F64C0C911C1 /* ZZDataChannelOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDataChannelOutput.m; path = zipzap/ZZDataChannelOutput.m; sourceTree = "<group>"; };
+		DDCFFE4422502B55756607CF /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
+		DDD76457F542873498935C65 /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_on.png; path = VungleSDK.embeddedframework/Resources/vg_mute_on.png; sourceTree = "<group>"; };
+		DE06888295D96DB057F71C5B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		DEA0AE2A5608F3AEEAF8C65C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFFD78C7900F6F45CF78B020 /* zipzap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zipzap.h; path = zipzap/zipzap.h; sourceTree = "<group>"; };
+		E1BAE1F7F6801F5A6DDAF970 /* ZZArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchiveEntry.h; path = zipzap/ZZArchiveEntry.h; sourceTree = "<group>"; };
+		E4369D73BF4B3799D9D93F46 /* Pods-ZapAddressBook-FlurrySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZapAddressBook-FlurrySDK-prefix.pch"; sourceTree = "<group>"; };
+		E889CF4008489AED52D7C26B /* Pods-ZapAddressBook-vCardSerialization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZapAddressBook-vCardSerialization-dummy.m"; sourceTree = "<group>"; };
+		EAE5A14F2A55487B4D01742D /* vCardSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vCardSerialization.h; path = vCardSerialization/vCardSerialization.h; sourceTree = "<group>"; };
+		ED49DE5BEE796D6EA2224F9D /* ZZDeflateOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDeflateOutputStream.h; path = zipzap/ZZDeflateOutputStream.h; sourceTree = "<group>"; };
+		F2C44A553321BDC53EC1D02F /* ZZAESDecryptInputStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZAESDecryptInputStream.mm; path = zipzap/ZZAESDecryptInputStream.mm; sourceTree = "<group>"; };
+		F4568E4A5E805B679483AEEB /* libPods-ZapAddressBook-zipzap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZapAddressBook-zipzap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F9F1954AC30394177820F7 /* Pods-ZapAddressBook-vCardSerialization-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZapAddressBook-vCardSerialization-Private.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B60B346A5E68F4DC5ED71465 /* Frameworks */ = {
+		24F166E689D0F009AA1E1030 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B3E0490F7606086A8384C87 /* Foundation.framework in Frameworks */,
-				B04EB9533CC3EC50E8EBDD22 /* UIKit.framework in Frameworks */,
+				B8091BFC4943FC487F02C6E9 /* Foundation.framework in Frameworks */,
+				008A63D7880376ABE1B4FCC5 /* Security.framework in Frameworks */,
+				1BAF7FB8CE6729A44FFA10AF /* SystemConfiguration.framework in Frameworks */,
+				D3FBA333364BA4457E6154AD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA7E851A069E0BF04F23709E /* Frameworks */ = {
+		2DB5764328E2380FD54BE217 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6963B5205BFCE716A21F5638 /* Foundation.framework in Frameworks */,
-				86AE191C291DEBCA4C07B0C0 /* ImageIO.framework in Frameworks */,
+				76CC9A256B548F5D28E0FFCC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D028ABC64203AFA12F776738 /* Frameworks */ = {
+		95126509F394A5FA14EFA991 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7006554DCF7C8C06D4C382F /* Foundation.framework in Frameworks */,
+				08BEEB438FA430D53FF82CF1 /* Foundation.framework in Frameworks */,
+				0BE975CEE5A4EA59202C78B9 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E768F20CA1B016A51F9305DF /* Frameworks */ = {
+		CDE33305B81CBC4BD921B231 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				929E510B792E30F3DFD60406 /* AddressBook.framework in Frameworks */,
-				F0430536E92A8E2DA3444624 /* Foundation.framework in Frameworks */,
+				FC0DAF0B3B04A3CEBBB9864B /* AddressBook.framework in Frameworks */,
+				02ADB492D5A3A70C614C1819 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21F14DD7E0C80C1DBA1D17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614D45D0DE0C742933314FCA /* Foundation.framework in Frameworks */,
+				E7F2F969EAB9B2C6D871D029 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0601B42B04DFC8247D058786 /* iOS */ = {
+		01219A4DBAF23BE7D001BF71 /* FlurrySDK */ = {
 			isa = PBXGroup;
 			children = (
-				07B3DE7A2282529DFC7C41AA /* AddressBook.framework */,
-				348DE65310DC0F3D5C5E9993 /* Foundation.framework */,
-				829CAED62111F35015631391 /* ImageIO.framework */,
-				37FC1878E44F4FA1F574A989 /* UIKit.framework */,
+				4DA998F4CA76D299E0175866 /* Flurry.h */,
+				3E7BFC71417F69969E54EE2C /* Frameworks */,
 			);
-			name = iOS;
+			name = FlurrySDK;
 			sourceTree = "<group>";
 		};
-		0ACD2AF940D75F68345AB0AE /* zipzap */ = {
+		03B9FBED55BED6BCAC121171 /* FlurrySDK */ = {
 			isa = PBXGroup;
 			children = (
-				3D18F92161091CF1B5B71483 /* Support Files */,
-				439AB0DA41DD4A4108296DB1 /* c++ */,
-				E6F69A9860FF1B36265C9AF3 /* objc */,
-				0D959DC1D021954628EF162B /* objc++ */,
+				01219A4DBAF23BE7D001BF71 /* FlurrySDK */,
+				489F2ACDE8AEBA4D798579A4 /* Support Files */,
 			);
-			path = zipzap;
+			path = FlurrySDK;
 			sourceTree = "<group>";
 		};
-		0D959DC1D021954628EF162B /* objc++ */ = {
+		081D63B95CD515C502D8BA77 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2F9FC7FBE6834F9DD9BDB2B1 /* ZZAESDecryptInputStream.mm */,
-				E5E94BEAE397391EE251264C /* ZZArchive.mm */,
-				7796FA76E77BE4A618439B02 /* ZZNewArchiveEntry.mm */,
-				062CA38C41040EF288293A55 /* ZZNewArchiveEntryWriter.mm */,
-				9D5CAA03B5932629D55BAD84 /* ZZOldArchiveEntry.mm */,
-				F2FF57B2657675EB27245071 /* ZZOldArchiveEntryWriter.mm */,
-				1BDDB081A185E6D502C72F40 /* ZZStandardDecryptInputStream.mm */,
-			);
-			name = "objc++";
-			sourceTree = "<group>";
-		};
-		2546193AE16D5ECC0480D7F2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B325C6CC91BF0BDC7E7BC03 /* Pods-ZapAddressBook-vCardSerialization.xcconfig */,
-				0F3595AA49697D8A1EAC4C09 /* Pods-ZapAddressBook-vCardSerialization-Private.xcconfig */,
-				4391BA1EA2FE5306602499A0 /* Pods-ZapAddressBook-vCardSerialization-dummy.m */,
-				221F86A9A481D34A3B33041A /* Pods-ZapAddressBook-vCardSerialization-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-ZapAddressBook-vCardSerialization";
-			sourceTree = "<group>";
-		};
-		38DF05ABC849ED5D7D145CC6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A7B9F4A41FB8CC219ADB3726 /* VungleAdvertiserSDK */,
-				876726233D5C773FD7BA57FC /* iCloudDocumentSync */,
-				ED772343D281814BCBB874F1 /* vCardSerialization */,
-				0ACD2AF940D75F68345AB0AE /* zipzap */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3D18F92161091CF1B5B71483 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2A013AC9BBAA184333C1E87 /* Pods-ZapAddressBook-zipzap.xcconfig */,
-				56A0C308108034EC5093BA54 /* Pods-ZapAddressBook-zipzap-Private.xcconfig */,
-				B9E886DD9897054BEC94D1B6 /* Pods-ZapAddressBook-zipzap-dummy.m */,
-				3672FFB54408AA9807AD84B3 /* Pods-ZapAddressBook-zipzap-prefix.pch */,
+				D93944B9DEAEF1E6A9D6E0FD /* Pods-ZapAddressBook-zipzap.xcconfig */,
+				29812B70CC6C02E8A9C348AC /* Pods-ZapAddressBook-zipzap-Private.xcconfig */,
+				40BD180F639F60F1FF866E77 /* Pods-ZapAddressBook-zipzap-dummy.m */,
+				46DFE2F9767629645E17A5D0 /* Pods-ZapAddressBook-zipzap-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-ZapAddressBook-zipzap";
 			sourceTree = "<group>";
 		};
-		439AB0DA41DD4A4108296DB1 /* c++ */ = {
+		24DEB8B95EC351474EB91D66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A29199279EA88464B324DA10 /* ZZAESDecryptInputStream.h */,
-				48D4C6175F22698E79CDA89C /* ZZArchive.h */,
-				E80BE52C7F57107296DBB235 /* ZZArchiveEntry.h */,
-				9CE02182286783C65EFE2501 /* ZZArchiveEntryWriter.h */,
-				D737002EADF7685C5E37B01A /* ZZChannel.h */,
-				41D7521D23CED3E2261B8CBA /* ZZChannelOutput.h */,
-				50066352DAB9F8FB5F918D52 /* ZZConstants.h */,
-				F77995FABA82970AC2329518 /* ZZDataChannel.h */,
-				6C6A9171FC9B18B597F3BD96 /* ZZDataChannelOutput.h */,
-				649417D0FE98B0919AABE3AB /* ZZDataProvider.h */,
-				1D35F17E25D0BACD52B3FD63 /* ZZDeflateOutputStream.h */,
-				7995BA3CDAB984E147AB3113 /* ZZError.h */,
-				368113FB77E0E3A72D65DEC0 /* ZZFileChannel.h */,
-				49470A7157D5447CFBE7982B /* ZZFileChannelOutput.h */,
-				8E93952A4766EC81A32D1255 /* ZZHeaders.h */,
-				A0F8409AA82ED589F602D669 /* ZZInflateInputStream.h */,
-				DC105127328B5211E7EA726D /* ZZNewArchiveEntry.h */,
-				6BC263FB1BC6F98062041BB2 /* ZZNewArchiveEntryWriter.h */,
-				6FA8202616C45FBF15B6E65C /* ZZOldArchiveEntry.h */,
-				578CFE3F0E524EEBFAEE5D63 /* ZZOldArchiveEntryWriter.h */,
-				4AFD0BFEFBAB6DA07C2A07A5 /* ZZScopeGuard.h */,
-				01B8836400C121F21D30B5BE /* ZZStandardCryptoEngine.cpp */,
-				3F0815225C9637E03BC08121 /* ZZStandardCryptoEngine.h */,
-				1ADF15DDB690380113134B39 /* ZZStandardDecryptInputStream.h */,
-				C5D635B7990D34984C58194A /* ZZStoreOutputStream.h */,
-				C1B7F6781C47A7451BEC7BDE /* zipzap.h */,
-			);
-			name = "c++";
-			sourceTree = "<group>";
-		};
-		43D450F6E459291D7445F093 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				780B93D9346FD6CA64FCE251 /* __vungle.db */,
-				3DF1C8F7AC48C5D005B8F3A1 /* vg_close.png */,
-				FEFC835AE1B438BEBDDB62D0 /* vg_cta.png */,
-				CF381205662A541D4B6962EA /* vg_mute_off.png */,
-				6CFE1E2EBC8A226D6D23C263 /* vg_mute_on.png */,
-				FCC446CD1986D3B8555E7EDB /* vg_timer.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5C911E99D5979E344BB1DEAB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE4BD06A789BFEBEDB4DD84B /* Pods-ZapAddressBook-iCloudDocumentSync.xcconfig */,
-				4A6AD864B31AFDBA46105EC9 /* Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig */,
-				E19414B188203A55D582AC18 /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m */,
-				542808F7D70250606ED121D7 /* Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-ZapAddressBook-iCloudDocumentSync";
-			sourceTree = "<group>";
-		};
-		65DA1D8FBD8E465F5F4FC498 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8C08ED8361789AD32C9F19C2 /* VungleSDK.framework */,
+				DDCFFE4422502B55756607CF /* AdColony.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		778ECF67A9396F6B1C002249 /* Targets Support Files */ = {
+		2855D5304FB7DABEA7C399B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DDD105683A70DDD9EE7CF525 /* Pods-ZapAddressBook */,
+				F197B30D3BAE0D2FB6CEA5CE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		310FF4C1F6FCA90443F2CB5A /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				BDC469BED63CB81931EADFAC /* ZZArchiveEntry.m */,
+				573684E89C3BC3AABC82F87A /* ZZConstants.m */,
+				0AD6E257D0EBE47538A7033A /* ZZDataChannel.m */,
+				DDB7447C29B22F64C0C911C1 /* ZZDataChannelOutput.m */,
+				5A20C25B5583CB18B2C6846F /* ZZDeflateOutputStream.m */,
+				BA63C470A09E9EB675AD932E /* ZZError.m */,
+				3F54A278A4A0D88EA46708EA /* ZZFileChannel.m */,
+				08A2F95C33751235A1DC935A /* ZZFileChannelOutput.m */,
+				A6A729B99DE9C2DBC10F638C /* ZZInflateInputStream.m */,
+				56FC9984097A317BF360165C /* ZZStoreOutputStream.m */,
+			);
+			name = objc;
+			sourceTree = "<group>";
+		};
+		3E7BFC71417F69969E54EE2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B97B920A49A9800492529CE /* libFlurry_6.5.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4066343EB1D095345B73AE8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A33FD5A30567819999DB324 /* VungleSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4106878FD0018BB7AEA84253 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B9624C0B12762971D825E3 /* Pods-ZapAddressBook */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		876726233D5C773FD7BA57FC /* iCloudDocumentSync */ = {
+		4605257EF2941EBF1CEE295F /* iCloudDocumentSync */ = {
 			isa = PBXGroup;
 			children = (
-				FBFC467D1AF63E879E680276 /* iCloud.h */,
-				4107882AFAD532B727221799 /* iCloud.m */,
-				A94A7EB917BC0C5BCF6C6AFF /* iCloud-Prefix.pch */,
-				FFBDB7D2BB3C91C26069C78A /* iCloudDocument.h */,
-				1C7FC6C37D098CE0885BDC6E /* iCloudDocument.m */,
-				5C911E99D5979E344BB1DEAB /* Support Files */,
+				8335C8CB293D501466FA37FE /* iCloud.h */,
+				4E59485A062ACFF908A6CC6E /* iCloud.m */,
+				1D3D94A32A7FC60B7BDAD33E /* iCloud-Prefix.pch */,
+				A41F801687C2399A29F454D1 /* iCloudDocument.h */,
+				773B8BED349BECF3B82590FA /* iCloudDocument.m */,
+				B313F22A2DF5B7FC8A8AE109 /* Support Files */,
 			);
 			path = iCloudDocumentSync;
 			sourceTree = "<group>";
 		};
-		A7B9F4A41FB8CC219ADB3726 /* VungleAdvertiserSDK */ = {
+		489F2ACDE8AEBA4D798579A4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				65DA1D8FBD8E465F5F4FC498 /* Frameworks */,
-				43D450F6E459291D7445F093 /* Resources */,
+				1A38DA4BECE4B537A2D63AAF /* Pods-ZapAddressBook-FlurrySDK.xcconfig */,
+				305C0B139BF154FCEF11D9D3 /* Pods-ZapAddressBook-FlurrySDK-Private.xcconfig */,
+				1F5AF2A9AAFE79A1D4715143 /* Pods-ZapAddressBook-FlurrySDK-dummy.m */,
+				E4369D73BF4B3799D9D93F46 /* Pods-ZapAddressBook-FlurrySDK-prefix.pch */,
 			);
-			path = VungleAdvertiserSDK;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ZapAddressBook-FlurrySDK";
 			sourceTree = "<group>";
 		};
-		D2F513BCAF2125E7694D77E6 = {
+		48B948F176BD31B03148D319 /* vCardSerialization */ = {
 			isa = PBXGroup;
 			children = (
-				CAAB13C87D5ACD7AFC9B0872 /* Podfile */,
-				F54CFB2081EC2E34E5A055D5 /* Frameworks */,
-				38DF05ABC849ED5D7D145CC6 /* Pods */,
-				E5FABD7F9C2206E2CC06D6E7 /* Products */,
-				778ECF67A9396F6B1C002249 /* Targets Support Files */,
+				EAE5A14F2A55487B4D01742D /* vCardSerialization.h */,
+				D828D8A1171096A87234425A /* vCardSerialization.m */,
+				ED5FD5D818D9C94D6ABA2C36 /* Support Files */,
 			);
+			path = vCardSerialization;
 			sourceTree = "<group>";
 		};
-		DDD105683A70DDD9EE7CF525 /* Pods-ZapAddressBook */ = {
+		51DEE9C10B0888B44F792084 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20627FEAADFDEDFA5598C738 /* Pods-ZapAddressBook-acknowledgements.markdown */,
-				4B44259245E968116F2CAC42 /* Pods-ZapAddressBook-acknowledgements.plist */,
-				2EBBA7A5DB68C9BF1C7A6CE0 /* Pods-ZapAddressBook-dummy.m */,
-				3A3DAD399A2071F2F4E59542 /* Pods-ZapAddressBook-environment.h */,
-				DED27742358B7A091DF46FE1 /* Pods-ZapAddressBook-resources.sh */,
-				AA0F0905643F464124A3DD7A /* Pods-ZapAddressBook.debug.xcconfig */,
-				93DD69692FDECAE5802760A7 /* Pods-ZapAddressBook.release.xcconfig */,
+				AB2AAD7B588CD09C94B3326F /* libPods-ZapAddressBook.a */,
+				A470A4921615DCB381E36054 /* libPods-ZapAddressBook-FlurrySDK.a */,
+				D3A7055B9A9B59FE7B21A596 /* libPods-ZapAddressBook-iCloudDocumentSync.a */,
+				70E8BC5FAF2CB70300A81B9F /* libPods-ZapAddressBook-vCardSerialization.a */,
+				F4568E4A5E805B679483AEEB /* libPods-ZapAddressBook-zipzap.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56500079BF8C4D6D1138A162 /* Heyzap */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA79F54BCDB73E7F33F9FA /* Frameworks */,
+			);
+			path = Heyzap;
+			sourceTree = "<group>";
+		};
+		81FEF259345D240BBC98D044 /* c++ */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE532A042BEE366D6FE4E0 /* ZZAESDecryptInputStream.h */,
+				74A8B67E3DA4CCA2F8547FF4 /* ZZArchive.h */,
+				E1BAE1F7F6801F5A6DDAF970 /* ZZArchiveEntry.h */,
+				66E3CBB461ABE3C83A3BF074 /* ZZArchiveEntryWriter.h */,
+				D9F2A080B673F7F3A014E179 /* ZZChannel.h */,
+				9A40B9907F328FB606DB6076 /* ZZChannelOutput.h */,
+				25A8067016631574F0252C5B /* ZZConstants.h */,
+				4040A6961A4074C207C05A83 /* ZZDataChannel.h */,
+				C83D1D5F6D63F7131EB4396A /* ZZDataChannelOutput.h */,
+				81D31C96CBDDB3D2B03CAF78 /* ZZDataProvider.h */,
+				ED49DE5BEE796D6EA2224F9D /* ZZDeflateOutputStream.h */,
+				DA5A4853BDCDB9DD10C237D1 /* ZZError.h */,
+				278F6B2004BCBA8FBDCADBC1 /* ZZFileChannel.h */,
+				1207631DC205776BAD30A881 /* ZZFileChannelOutput.h */,
+				555D139D23144D14A1E628B3 /* ZZHeaders.h */,
+				98953BF04E919253C30B3048 /* ZZInflateInputStream.h */,
+				7B454672BE805831C645A8EE /* ZZNewArchiveEntry.h */,
+				3D866F7D29885777D16828B6 /* ZZNewArchiveEntryWriter.h */,
+				9642C85E553B50265F82ADC1 /* ZZOldArchiveEntry.h */,
+				7AD5A6364BD71006FE8FFCBD /* ZZOldArchiveEntryWriter.h */,
+				2AE61C4C692BEC3D7F269ABB /* ZZScopeGuard.h */,
+				923E61EFAFB7FCCFF8D45AAB /* ZZStandardCryptoEngine.cpp */,
+				48B6FCE2BB94334CB44B029E /* ZZStandardCryptoEngine.h */,
+				D18CBAEF9BA50C9F0AD5A183 /* ZZStandardDecryptInputStream.h */,
+				86521B2317FB6AA14B00E560 /* ZZStoreOutputStream.h */,
+				DFFD78C7900F6F45CF78B020 /* zipzap.h */,
+			);
+			name = "c++";
+			sourceTree = "<group>";
+		};
+		93B9624C0B12762971D825E3 /* Pods-ZapAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5C449382E54832D36670B /* Pods-ZapAddressBook-acknowledgements.markdown */,
+				6EAD690F55ECC1EB8E5E7C97 /* Pods-ZapAddressBook-acknowledgements.plist */,
+				418D031FEE159ABCA58FEF40 /* Pods-ZapAddressBook-dummy.m */,
+				06D61A0B16F6596ED8E9BD37 /* Pods-ZapAddressBook-environment.h */,
+				BF3DCBDDDDD0BAD3895664C8 /* Pods-ZapAddressBook-resources.sh */,
+				85C7325EB68E524A46E4D4CC /* Pods-ZapAddressBook.debug.xcconfig */,
+				B551A85732784CDD757F7DE8 /* Pods-ZapAddressBook.release.xcconfig */,
 			);
 			name = "Pods-ZapAddressBook";
 			path = "Target Support Files/Pods-ZapAddressBook";
 			sourceTree = "<group>";
 		};
-		E5FABD7F9C2206E2CC06D6E7 /* Products */ = {
+		97E4524A6287005E26DC7896 /* AdColony */ = {
 			isa = PBXGroup;
 			children = (
-				2719C7580700FFD230F01F30 /* libPods-ZapAddressBook.a */,
-				1196D85157F7D58F9CC9D198 /* libPods-ZapAddressBook-iCloudDocumentSync.a */,
-				42BE79F22CEA44479BF1F36D /* libPods-ZapAddressBook-vCardSerialization.a */,
-				EE6CB93451CFBAD1B8860F6D /* libPods-ZapAddressBook-zipzap.a */,
+				24DEB8B95EC351474EB91D66 /* Frameworks */,
 			);
-			name = Products;
+			path = AdColony;
 			sourceTree = "<group>";
 		};
-		E6F69A9860FF1B36265C9AF3 /* objc */ = {
+		AFD893EE3C32793032A5C632 /* VungleAdvertiserSDK */ = {
 			isa = PBXGroup;
 			children = (
-				8E8E6FB0C923A006F9F1AE4F /* ZZArchiveEntry.m */,
-				A911B63DEBC5364BC42CAB36 /* ZZConstants.m */,
-				D001165DE51BACFFDC36ED71 /* ZZDataChannel.m */,
-				CC3E1BEA872486CFC45824C4 /* ZZDataChannelOutput.m */,
-				2780234D81211DAD2C284BB9 /* ZZDeflateOutputStream.m */,
-				F2BCFC7290D4B309EAE1F8E0 /* ZZError.m */,
-				1FFF709100DFF1DD7C9883F4 /* ZZFileChannel.m */,
-				CE7421792E68BD4C59CDF12D /* ZZFileChannelOutput.m */,
-				0478BDF44FA24F27CB9D1123 /* ZZInflateInputStream.m */,
-				61E225DEA6F588F32F174725 /* ZZStoreOutputStream.m */,
+				4066343EB1D095345B73AE8A /* Frameworks */,
+				C6026E1241443D3717D86F8C /* Resources */,
 			);
-			name = objc;
+			path = VungleAdvertiserSDK;
 			sourceTree = "<group>";
 		};
-		ED772343D281814BCBB874F1 /* vCardSerialization */ = {
+		B313F22A2DF5B7FC8A8AE109 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2C2C32E50BE92EC61DAAD1B /* vCardSerialization.h */,
-				B63EAD4E2BD00CB49C8AD3B8 /* vCardSerialization.m */,
-				2546193AE16D5ECC0480D7F2 /* Support Files */,
+				1A2F17C406FD19CE72B22D92 /* Pods-ZapAddressBook-iCloudDocumentSync.xcconfig */,
+				0440B92B3EC445209F7D9E79 /* Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig */,
+				93DDC2E7E4A957A73A99E125 /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m */,
+				2D69E1FDE3E094CA54CB302A /* Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch */,
 			);
-			path = vCardSerialization;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ZapAddressBook-iCloudDocumentSync";
 			sourceTree = "<group>";
 		};
-		F54CFB2081EC2E34E5A055D5 /* Frameworks */ = {
+		C6026E1241443D3717D86F8C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0601B42B04DFC8247D058786 /* iOS */,
+				0E0593D39461F421796A247A /* __vungle.db */,
+				0EEEFCF46C0208C5B4085601 /* vg_close.png */,
+				58F7526F748D2A49ABC443BE /* vg_cta.png */,
+				DA3579D3A1DA0CA9EB496002 /* vg_mute_off.png */,
+				DDD76457F542873498935C65 /* vg_mute_on.png */,
+				8E614549ED093DA84C4ACDD3 /* vg_timer.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CB3DF8586AE325C27A596B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97E4524A6287005E26DC7896 /* AdColony */,
+				03B9FBED55BED6BCAC121171 /* FlurrySDK */,
+				56500079BF8C4D6D1138A162 /* Heyzap */,
+				AFD893EE3C32793032A5C632 /* VungleAdvertiserSDK */,
+				4605257EF2941EBF1CEE295F /* iCloudDocumentSync */,
+				48B948F176BD31B03148D319 /* vCardSerialization */,
+				FB97D6E61074319DADE4979C /* zipzap */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEBA79F54BCDB73E7F33F9FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6190187415857AB95C31FA57 /* HeyzapAds.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFA197FD9761EFC0DFEC30B2 = {
+			isa = PBXGroup;
+			children = (
+				52FC38A808D7DDF77C30BE25 /* Podfile */,
+				2855D5304FB7DABEA7C399B7 /* Frameworks */,
+				CB3DF8586AE325C27A596B59 /* Pods */,
+				51DEE9C10B0888B44F792084 /* Products */,
+				4106878FD0018BB7AEA84253 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB04F8CEA94220CB7792BC4 /* objc++ */ = {
+			isa = PBXGroup;
+			children = (
+				F2C44A553321BDC53EC1D02F /* ZZAESDecryptInputStream.mm */,
+				B45A99AC05C78AEEC08B4CA4 /* ZZArchive.mm */,
+				584BBEC0E98E0A589DA174ED /* ZZNewArchiveEntry.mm */,
+				3E7D89B2862548639B272206 /* ZZNewArchiveEntryWriter.mm */,
+				7FDF8681282358824FBA58D8 /* ZZOldArchiveEntry.mm */,
+				1F47F03BAEB2BCF1C8632093 /* ZZOldArchiveEntryWriter.mm */,
+				19EAC5F5915EDCC5081684B4 /* ZZStandardDecryptInputStream.mm */,
+			);
+			name = "objc++";
+			sourceTree = "<group>";
+		};
+		ED5FD5D818D9C94D6ABA2C36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D4FBD8BC4C2851F56FFB5 /* Pods-ZapAddressBook-vCardSerialization.xcconfig */,
+				F4F9F1954AC30394177820F7 /* Pods-ZapAddressBook-vCardSerialization-Private.xcconfig */,
+				E889CF4008489AED52D7C26B /* Pods-ZapAddressBook-vCardSerialization-dummy.m */,
+				0F14564750B9FCEE147DE16A /* Pods-ZapAddressBook-vCardSerialization-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ZapAddressBook-vCardSerialization";
+			sourceTree = "<group>";
+		};
+		F197B30D3BAE0D2FB6CEA5CE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D4AAD6C26BDBC2200CA0FC73 /* AddressBook.framework */,
+				DEA0AE2A5608F3AEEAF8C65C /* Foundation.framework */,
+				DE06888295D96DB057F71C5B /* ImageIO.framework */,
+				19A86A33C4BE8D335A1CEC88 /* Security.framework */,
+				01899A5380F0DD70B31A9B83 /* SystemConfiguration.framework */,
+				B2710ADB2AD9DD2C4A580ECC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FB97D6E61074319DADE4979C /* zipzap */ = {
+			isa = PBXGroup;
+			children = (
+				081D63B95CD515C502D8BA77 /* Support Files */,
+				81FEF259345D240BBC98D044 /* c++ */,
+				310FF4C1F6FCA90443F2CB5A /* objc */,
+				EAB04F8CEA94220CB7792BC4 /* objc++ */,
+			);
+			path = zipzap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1DF967236EC5F7452CDC0E17 /* Headers */ = {
+		02169AED8B2060A4931F6F76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A56EBCF29A7A4D38D3905AAE /* vCardSerialization.h in Headers */,
+				92585FB488BC13F68F2ABE6A /* vCardSerialization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98B5DD804011951766BE7EFC /* Headers */ = {
+		B8667951B512C3864CB84C84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CFF33CA40660B5E7B07035A /* iCloud.h in Headers */,
-				E14EAFE524C41780C09EB7F9 /* iCloudDocument.h in Headers */,
+				A1E354ABDD7F55585429F9D2 /* ZZAESDecryptInputStream.h in Headers */,
+				0A99A1ADB348477551914F5E /* ZZAESDecryptInputStream.h in Headers */,
+				99B7C796ADDAD6920CBA669C /* ZZAESDecryptInputStream.h in Headers */,
+				2952F50CDBBF4C447A103E42 /* ZZArchive.h in Headers */,
+				312FC578B6817B9488296217 /* ZZArchive.h in Headers */,
+				E83DFCF372690B7B0E2A16A3 /* ZZArchive.h in Headers */,
+				3E81C71F6DE6D1EE601BCFDB /* ZZArchiveEntry.h in Headers */,
+				101CA94CB1ABB38B004A7ACA /* ZZArchiveEntry.h in Headers */,
+				399D5B5C9FE42E364032B5C7 /* ZZArchiveEntry.h in Headers */,
+				1440555E037359A7626B749E /* ZZArchiveEntryWriter.h in Headers */,
+				FE57A0D92DFF6968256E4AB6 /* ZZArchiveEntryWriter.h in Headers */,
+				07AAAA5C9D33D0A23D9C0BF5 /* ZZArchiveEntryWriter.h in Headers */,
+				333D25A89AFC9B2A65642F8F /* ZZChannel.h in Headers */,
+				2C21EBEEACAD145198A1F85E /* ZZChannel.h in Headers */,
+				AB11CD3F6917C7D0BBBE028C /* ZZChannel.h in Headers */,
+				C2F8ABCE28568F7ADD3EE955 /* ZZChannelOutput.h in Headers */,
+				FAC26ACD2311C4D17FDFB11A /* ZZChannelOutput.h in Headers */,
+				BF83D0A71F7135AD6C8B8320 /* ZZChannelOutput.h in Headers */,
+				1A08A862F3566280C3386346 /* ZZConstants.h in Headers */,
+				09EB38D624C8B1D7A16683F4 /* ZZConstants.h in Headers */,
+				D3814587D3105AC029474E4E /* ZZConstants.h in Headers */,
+				03BA343B99A068D71906E724 /* ZZDataChannel.h in Headers */,
+				91BF0625BCAEFAB082CF4E46 /* ZZDataChannel.h in Headers */,
+				C86C468E7DE03D0801DE279E /* ZZDataChannel.h in Headers */,
+				AE902A6CDF9A65313B5C80C9 /* ZZDataChannelOutput.h in Headers */,
+				D5575F1F21EAFD7A1F99BA65 /* ZZDataChannelOutput.h in Headers */,
+				49C93C6D2D12055DEAC93967 /* ZZDataChannelOutput.h in Headers */,
+				EDBB7F235CE8F443207B110C /* ZZDataProvider.h in Headers */,
+				0D1B67BEEFBAC39A3CA1F957 /* ZZDataProvider.h in Headers */,
+				A901D3B66618B2F0D5F4F29B /* ZZDataProvider.h in Headers */,
+				C8C25AAF64CDD6AF31EC8E53 /* ZZDeflateOutputStream.h in Headers */,
+				23D72F562E9DDEAED5D7543A /* ZZDeflateOutputStream.h in Headers */,
+				6746F18965D96D54AE9B2566 /* ZZDeflateOutputStream.h in Headers */,
+				1C0F480FDECCE8FA98BC75A0 /* ZZError.h in Headers */,
+				63F6BED4E0EA5D7373873F7B /* ZZError.h in Headers */,
+				E641E4C942A96C84FDF25CEE /* ZZError.h in Headers */,
+				6C36C26BFF3949CB8DD1CCDF /* ZZFileChannel.h in Headers */,
+				E09ACE4562DAFDF6A6BFE827 /* ZZFileChannel.h in Headers */,
+				EAFEFD7CAB16D3CE738D6128 /* ZZFileChannel.h in Headers */,
+				8FE353BECE6764EBEA72C342 /* ZZFileChannelOutput.h in Headers */,
+				FC0AF6E0A70F85E32F52665D /* ZZFileChannelOutput.h in Headers */,
+				27167188DAF6AB84AFB2296D /* ZZFileChannelOutput.h in Headers */,
+				BE55F94A3508DBF6A933075B /* ZZHeaders.h in Headers */,
+				11FCD14FE1F77BF96D47532F /* ZZHeaders.h in Headers */,
+				2573BDA8E69730C5CB48FD40 /* ZZHeaders.h in Headers */,
+				1D1C7029DE2BB2C1731DC22D /* ZZInflateInputStream.h in Headers */,
+				A36F248F88A8B9FB3F305B6A /* ZZInflateInputStream.h in Headers */,
+				102A8440C864A869B33CCDE1 /* ZZInflateInputStream.h in Headers */,
+				2026DFFB92FE85371A103635 /* ZZNewArchiveEntry.h in Headers */,
+				DC5F719A9F2B2E9A1BC901CC /* ZZNewArchiveEntry.h in Headers */,
+				1F8797BFDE07643AF6BE2D63 /* ZZNewArchiveEntry.h in Headers */,
+				B76AEB27BABA17D035000356 /* ZZNewArchiveEntryWriter.h in Headers */,
+				761D8D83964A2FD6C947AA49 /* ZZNewArchiveEntryWriter.h in Headers */,
+				2ED1A1139873591479096768 /* ZZNewArchiveEntryWriter.h in Headers */,
+				8E23745365FAA8FFC9F78491 /* ZZOldArchiveEntry.h in Headers */,
+				FE13C2CE3207D95C71EC7126 /* ZZOldArchiveEntry.h in Headers */,
+				A9D342A39263BD6EB83411CC /* ZZOldArchiveEntry.h in Headers */,
+				3980B1CAC57E353F1F2E54FC /* ZZOldArchiveEntryWriter.h in Headers */,
+				58051EF4FE79EC53B4D0CED6 /* ZZOldArchiveEntryWriter.h in Headers */,
+				EAD1BFB26224179E36333829 /* ZZOldArchiveEntryWriter.h in Headers */,
+				14F4A3AEB9BB3D3599A756FD /* ZZScopeGuard.h in Headers */,
+				603D611C3512C0DA4AA20E8E /* ZZScopeGuard.h in Headers */,
+				CE5755C964ADC930A29BD283 /* ZZScopeGuard.h in Headers */,
+				ABB3DE5B114932DAD10817BC /* ZZStandardCryptoEngine.h in Headers */,
+				216C568394504227D48BD64C /* ZZStandardCryptoEngine.h in Headers */,
+				18509F5EFC213093FE47CD05 /* ZZStandardCryptoEngine.h in Headers */,
+				E06487695D01DFA8C91E78F1 /* ZZStandardDecryptInputStream.h in Headers */,
+				21992462D8E1E4B9FAF234CC /* ZZStandardDecryptInputStream.h in Headers */,
+				793ECEAB46EF2A9215C3BD73 /* ZZStandardDecryptInputStream.h in Headers */,
+				32013597E6FF3799F84EF141 /* ZZStoreOutputStream.h in Headers */,
+				3CA3BBE03C40C8C26AD48B77 /* ZZStoreOutputStream.h in Headers */,
+				93034C52BD0A1D5A7852EC43 /* ZZStoreOutputStream.h in Headers */,
+				05EB60DDDA219B707E5B30C9 /* zipzap.h in Headers */,
+				870BA5B77AFDD78AA5CD3F5C /* zipzap.h in Headers */,
+				EF5760512583628B56D1717C /* zipzap.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC84394F4A1278B61B1462EC /* Headers */ = {
+		F3EE754419CA4E51CC305930 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A48A472EBA6B559E671CB04 /* ZZAESDecryptInputStream.h in Headers */,
-				2312DCDE70D1222C0446A896 /* ZZAESDecryptInputStream.h in Headers */,
-				254094AD26650181666D1B06 /* ZZAESDecryptInputStream.h in Headers */,
-				05ABDBAF209CC15189F2DF66 /* ZZArchive.h in Headers */,
-				9AB28BD6A0708441ACFCD17C /* ZZArchive.h in Headers */,
-				C159854F98B66A0D8A29009D /* ZZArchive.h in Headers */,
-				54647A9E47D1E449F2CF4B36 /* ZZArchiveEntry.h in Headers */,
-				96378BFA14F3B22D9463F136 /* ZZArchiveEntry.h in Headers */,
-				75A26FBA728B714B955230A2 /* ZZArchiveEntry.h in Headers */,
-				4A7391881844758B56AE363B /* ZZArchiveEntryWriter.h in Headers */,
-				399E313373B817372E569F06 /* ZZArchiveEntryWriter.h in Headers */,
-				9EC711053C8984C2E8FBED33 /* ZZArchiveEntryWriter.h in Headers */,
-				545409F5E680C3717B7C169E /* ZZChannel.h in Headers */,
-				447E601AB28C32272F08EEC2 /* ZZChannel.h in Headers */,
-				7EB7BCB962722CFB8F42E6FD /* ZZChannel.h in Headers */,
-				4D06B0BB7FD0770CE7B3DB6B /* ZZChannelOutput.h in Headers */,
-				AE5C56B85E80D29A6B860C1A /* ZZChannelOutput.h in Headers */,
-				D68EFC78F3BFE99AB722D30D /* ZZChannelOutput.h in Headers */,
-				9E257C7705F7C354C0ECB60B /* ZZConstants.h in Headers */,
-				BA0180B9D805A39840726134 /* ZZConstants.h in Headers */,
-				59597594CB27A9D8BD155E41 /* ZZConstants.h in Headers */,
-				728CF1F8A913F1E2840D60D8 /* ZZDataChannel.h in Headers */,
-				68FFC8915CD952E96070BB59 /* ZZDataChannel.h in Headers */,
-				30FD50C406EB9F46499B3887 /* ZZDataChannel.h in Headers */,
-				F8E6922E07185E27FBE61F9B /* ZZDataChannelOutput.h in Headers */,
-				FE8B98A4ECD06464E2ED0959 /* ZZDataChannelOutput.h in Headers */,
-				0155F978226E4FA8D80BFABD /* ZZDataChannelOutput.h in Headers */,
-				E633DA9B786E3662F5D929A6 /* ZZDataProvider.h in Headers */,
-				E1A77B12D61204BCDAF181E5 /* ZZDataProvider.h in Headers */,
-				597EDCBAAD7871E56EA30ECF /* ZZDataProvider.h in Headers */,
-				7D8C8B020E313D53B842445D /* ZZDeflateOutputStream.h in Headers */,
-				62D8F896FE00EA15FDA67F6B /* ZZDeflateOutputStream.h in Headers */,
-				EB72D9129B39F1540D7E26D4 /* ZZDeflateOutputStream.h in Headers */,
-				D9C8EBB2062170BA2D05F24F /* ZZError.h in Headers */,
-				F68D25E7B8783200202C8286 /* ZZError.h in Headers */,
-				865B43509635BEB3B3E18B5C /* ZZError.h in Headers */,
-				E0B9559E58250EAA19193620 /* ZZFileChannel.h in Headers */,
-				E7CAE95C6050543E4FD95E65 /* ZZFileChannel.h in Headers */,
-				C768D9489664F4EC1D68C677 /* ZZFileChannel.h in Headers */,
-				5F49CB56A1C5E90C6B65A8AD /* ZZFileChannelOutput.h in Headers */,
-				82DCB6FF69BF47660F01F5D3 /* ZZFileChannelOutput.h in Headers */,
-				6BA21FC22DFEB1DD2C5D2C82 /* ZZFileChannelOutput.h in Headers */,
-				A3E6C5DC1436C455BFEA1CF3 /* ZZHeaders.h in Headers */,
-				229DAD262B871C7BA2E9BED0 /* ZZHeaders.h in Headers */,
-				730F1F7F635DAE1BAE6614E8 /* ZZHeaders.h in Headers */,
-				2BAF79D807478C42F5AA2146 /* ZZInflateInputStream.h in Headers */,
-				0E4593704CE04C06FF878F9D /* ZZInflateInputStream.h in Headers */,
-				6D0CED1E0C1AA3C1C03A8871 /* ZZInflateInputStream.h in Headers */,
-				4D482E228FEB9AFEA90AC88A /* ZZNewArchiveEntry.h in Headers */,
-				A4CC1126585209FD2B842C59 /* ZZNewArchiveEntry.h in Headers */,
-				D62FA067C5348DE38102116F /* ZZNewArchiveEntry.h in Headers */,
-				A259BF686CF5CCA36A2B697A /* ZZNewArchiveEntryWriter.h in Headers */,
-				FAABE9BE25611CB6A3F4327A /* ZZNewArchiveEntryWriter.h in Headers */,
-				7E257EBD258133F158BD2AE8 /* ZZNewArchiveEntryWriter.h in Headers */,
-				00067721D055D5D256224DC3 /* ZZOldArchiveEntry.h in Headers */,
-				975841F8F5B134D57F19B620 /* ZZOldArchiveEntry.h in Headers */,
-				F5C24DD1F41D3EF95557AC74 /* ZZOldArchiveEntry.h in Headers */,
-				BE14189A355470B82A999D72 /* ZZOldArchiveEntryWriter.h in Headers */,
-				B1F53759CC8112C9D3CF0523 /* ZZOldArchiveEntryWriter.h in Headers */,
-				9A30172D00FE73C08EE4C93C /* ZZOldArchiveEntryWriter.h in Headers */,
-				8D5C52F1B96F7CA2AC893631 /* ZZScopeGuard.h in Headers */,
-				5DB05C3A9EA044A146036D66 /* ZZScopeGuard.h in Headers */,
-				7F280FA5FD42DDE0A783E4DD /* ZZScopeGuard.h in Headers */,
-				A3685DF2509BE9A0059CF24D /* ZZStandardCryptoEngine.h in Headers */,
-				15130BC98BF1BA37EA1F9207 /* ZZStandardCryptoEngine.h in Headers */,
-				47317A0D15D470177C292529 /* ZZStandardCryptoEngine.h in Headers */,
-				593B68C93D1070CD06B02E30 /* ZZStandardDecryptInputStream.h in Headers */,
-				F6A12A3A906849F4455F018E /* ZZStandardDecryptInputStream.h in Headers */,
-				8D6EBB4A23180364AA2C343C /* ZZStandardDecryptInputStream.h in Headers */,
-				6933120A3AAFFD704BE6409B /* ZZStoreOutputStream.h in Headers */,
-				7D13B225A282B4DE6E9EE1FE /* ZZStoreOutputStream.h in Headers */,
-				EF472C9AF29AE63620EE02F1 /* ZZStoreOutputStream.h in Headers */,
-				557AF4620A9F0D58C5DFC303 /* zipzap.h in Headers */,
-				B4F2FBA2ED2D7EDC6A1DAA61 /* zipzap.h in Headers */,
-				12E176D49F84A69F5ABBE853 /* zipzap.h in Headers */,
+				3CAF6E7646B6653256F57926 /* Flurry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D0555A52EE4C0D3714BE88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C8967C82FCD3E346A1E6B3 /* iCloud.h in Headers */,
+				18E711712122152B351B0D3F /* iCloudDocument.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		233F647A4757DFED1B34281C /* Pods-ZapAddressBook-vCardSerialization */ = {
+		08E0839A9AC9C028D15A0958 /* Pods-ZapAddressBook-iCloudDocumentSync */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C00769634C62021C66A095FE /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-vCardSerialization" */;
+			buildConfigurationList = D15AD01DD09C6EADB9923EE7 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-iCloudDocumentSync" */;
 			buildPhases = (
-				5D570CE451F782871EE8DC6B /* Sources */,
-				E768F20CA1B016A51F9305DF /* Frameworks */,
-				1DF967236EC5F7452CDC0E17 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ZapAddressBook-vCardSerialization";
-			productName = "Pods-ZapAddressBook-vCardSerialization";
-			productReference = 42BE79F22CEA44479BF1F36D /* libPods-ZapAddressBook-vCardSerialization.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		38355CBB32842FBFC4ACA786 /* Pods-ZapAddressBook-zipzap */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF911D67B55911D657FC2203 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-zipzap" */;
-			buildPhases = (
-				6F2AE26BD07FF54A955C05FA /* Sources */,
-				CA7E851A069E0BF04F23709E /* Frameworks */,
-				DC84394F4A1278B61B1462EC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ZapAddressBook-zipzap";
-			productName = "Pods-ZapAddressBook-zipzap";
-			productReference = EE6CB93451CFBAD1B8860F6D /* libPods-ZapAddressBook-zipzap.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		3E4DA5AAEB3E959D9F2FAE99 /* Pods-ZapAddressBook-iCloudDocumentSync */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2F1BCCC8DDB8533E66D0CD57 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-iCloudDocumentSync" */;
-			buildPhases = (
-				42FDDFD8392006F78D9043E5 /* Sources */,
-				B60B346A5E68F4DC5ED71465 /* Frameworks */,
-				98B5DD804011951766BE7EFC /* Headers */,
+				20B341B508FF044D173FF688 /* Sources */,
+				D21F14DD7E0C80C1DBA1D17D /* Frameworks */,
+				F4D0555A52EE4C0D3714BE88 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -663,136 +748,235 @@
 			);
 			name = "Pods-ZapAddressBook-iCloudDocumentSync";
 			productName = "Pods-ZapAddressBook-iCloudDocumentSync";
-			productReference = 1196D85157F7D58F9CC9D198 /* libPods-ZapAddressBook-iCloudDocumentSync.a */;
+			productReference = D3A7055B9A9B59FE7B21A596 /* libPods-ZapAddressBook-iCloudDocumentSync.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C58B2084DC1129C5690C9471 /* Pods-ZapAddressBook */ = {
+		87BB7CCB59AEF58344E236A9 /* Pods-ZapAddressBook-vCardSerialization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22C04D3508E794F4E7800286 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook" */;
+			buildConfigurationList = 384D8C4575D691EBA9500103 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-vCardSerialization" */;
 			buildPhases = (
-				A5BF456A95BE21BE92BD146F /* Sources */,
-				D028ABC64203AFA12F776738 /* Frameworks */,
+				5A2552CC5C6BD66245B18A0F /* Sources */,
+				CDE33305B81CBC4BD921B231 /* Frameworks */,
+				02169AED8B2060A4931F6F76 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4AFC574EDF3FF188B1465487 /* PBXTargetDependency */,
-				703BF50427109FC645B3FAAA /* PBXTargetDependency */,
-				270C4E25B68A1A7D5446AE8F /* PBXTargetDependency */,
+			);
+			name = "Pods-ZapAddressBook-vCardSerialization";
+			productName = "Pods-ZapAddressBook-vCardSerialization";
+			productReference = 70E8BC5FAF2CB70300A81B9F /* libPods-ZapAddressBook-vCardSerialization.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		88035A576BFB6836DF6995A3 /* Pods-ZapAddressBook-FlurrySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2052E1F7898BDADA93A2BFA4 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-FlurrySDK" */;
+			buildPhases = (
+				23EF081D8D11D9577E1A6B5D /* Sources */,
+				24F166E689D0F009AA1E1030 /* Frameworks */,
+				F3EE754419CA4E51CC305930 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZapAddressBook-FlurrySDK";
+			productName = "Pods-ZapAddressBook-FlurrySDK";
+			productReference = A470A4921615DCB381E36054 /* libPods-ZapAddressBook-FlurrySDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B406DBEF10BF77381804EEBF /* Pods-ZapAddressBook-zipzap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396597935A39CE8990AE8697 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-zipzap" */;
+			buildPhases = (
+				F2DF7369525D711AA5419C0F /* Sources */,
+				95126509F394A5FA14EFA991 /* Frameworks */,
+				B8667951B512C3864CB84C84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZapAddressBook-zipzap";
+			productName = "Pods-ZapAddressBook-zipzap";
+			productReference = F4568E4A5E805B679483AEEB /* libPods-ZapAddressBook-zipzap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D30F1F872B3FD5D462B79615 /* Pods-ZapAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14FA01EFA420CAB0CE2073F7 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook" */;
+			buildPhases = (
+				1D1E0A2612C1CB62F724F385 /* Sources */,
+				2DB5764328E2380FD54BE217 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06BF749F794765C53603B999 /* PBXTargetDependency */,
+				C238A2791DA3B9B62161C956 /* PBXTargetDependency */,
+				5BAC84CAAD7EB102BB082876 /* PBXTargetDependency */,
+				17C911214489E11EA9CE5B75 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZapAddressBook";
 			productName = "Pods-ZapAddressBook";
-			productReference = 2719C7580700FFD230F01F30 /* libPods-ZapAddressBook.a */;
+			productReference = AB2AAD7B588CD09C94B3326F /* libPods-ZapAddressBook.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E24DC634E0C36D3195A48F1F /* Project object */ = {
+		44A84CDB0AA9134469BC808A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = DB551D4F083A6CACDA7CB8C3 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 0EB8BA57B6CA5A43595A7847 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D2F513BCAF2125E7694D77E6;
-			productRefGroup = E5FABD7F9C2206E2CC06D6E7 /* Products */;
+			mainGroup = CFA197FD9761EFC0DFEC30B2;
+			productRefGroup = 51DEE9C10B0888B44F792084 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C58B2084DC1129C5690C9471 /* Pods-ZapAddressBook */,
-				3E4DA5AAEB3E959D9F2FAE99 /* Pods-ZapAddressBook-iCloudDocumentSync */,
-				233F647A4757DFED1B34281C /* Pods-ZapAddressBook-vCardSerialization */,
-				38355CBB32842FBFC4ACA786 /* Pods-ZapAddressBook-zipzap */,
+				D30F1F872B3FD5D462B79615 /* Pods-ZapAddressBook */,
+				88035A576BFB6836DF6995A3 /* Pods-ZapAddressBook-FlurrySDK */,
+				08E0839A9AC9C028D15A0958 /* Pods-ZapAddressBook-iCloudDocumentSync */,
+				87BB7CCB59AEF58344E236A9 /* Pods-ZapAddressBook-vCardSerialization */,
+				B406DBEF10BF77381804EEBF /* Pods-ZapAddressBook-zipzap */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42FDDFD8392006F78D9043E5 /* Sources */ = {
+		1D1E0A2612C1CB62F724F385 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD7BB6E5EA00ABC1B8DDA631 /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m in Sources */,
-				0C773B94B83808D9BF24A51B /* iCloud-Prefix.pch in Sources */,
-				8DC995D68CE45C0ADFCE1D74 /* iCloud.m in Sources */,
-				2A3445FC16D1EADA65E12EDD /* iCloudDocument.m in Sources */,
+				C11C861389AAAD74C2C12503 /* Pods-ZapAddressBook-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D570CE451F782871EE8DC6B /* Sources */ = {
+		20B341B508FF044D173FF688 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C905F1A8B1343FDEF8043AF8 /* Pods-ZapAddressBook-vCardSerialization-dummy.m in Sources */,
-				5B56C0CFF38D32AE9463E9B6 /* vCardSerialization.m in Sources */,
+				CFAA2C7D2907AEA7CC77943D /* Pods-ZapAddressBook-iCloudDocumentSync-dummy.m in Sources */,
+				CE3C695FE9AEA2065DD5A0E2 /* iCloud-Prefix.pch in Sources */,
+				CD4B0A38110D1FB511D28013 /* iCloud.m in Sources */,
+				E8236E7DFDF3F2EE4B009A9F /* iCloudDocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F2AE26BD07FF54A955C05FA /* Sources */ = {
+		23EF081D8D11D9577E1A6B5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE4269988F88BF3D8EDFC7C /* Pods-ZapAddressBook-zipzap-dummy.m in Sources */,
-				1795D1C49057FD10BC28291B /* ZZAESDecryptInputStream.mm in Sources */,
-				C9DDDFD949FF5D210E8DF179 /* ZZArchive.mm in Sources */,
-				9DA6A089FE2A5731C249284B /* ZZArchiveEntry.m in Sources */,
-				AC657FDAA75519FD55802B83 /* ZZConstants.m in Sources */,
-				B75876DD6251DBE1445F3AAC /* ZZDataChannel.m in Sources */,
-				28B5C0303655601D7F427A84 /* ZZDataChannelOutput.m in Sources */,
-				A7D4D3B2CA3FFB5DE52D1739 /* ZZDeflateOutputStream.m in Sources */,
-				33F6A3FB65D4285761E324DB /* ZZError.m in Sources */,
-				3705B8E0396F37C874B2587F /* ZZFileChannel.m in Sources */,
-				D8681C5AD494E814AD11C3AD /* ZZFileChannelOutput.m in Sources */,
-				C771685FC79FC4E0B694438C /* ZZInflateInputStream.m in Sources */,
-				4636CA8928A8242C3E026FC8 /* ZZNewArchiveEntry.mm in Sources */,
-				FC11789BC1A55DC1E2E9327F /* ZZNewArchiveEntryWriter.mm in Sources */,
-				C3DC2CA7FD1C25EBBFAD75FF /* ZZOldArchiveEntry.mm in Sources */,
-				2D07E6C72E9F127BF44363D9 /* ZZOldArchiveEntryWriter.mm in Sources */,
-				409DB5E00882AE380B1F465F /* ZZStandardCryptoEngine.cpp in Sources */,
-				74FFBB5039445A665A4941BB /* ZZStandardDecryptInputStream.mm in Sources */,
-				28B4ECA2C6728DE078DFAD0B /* ZZStoreOutputStream.m in Sources */,
+				9765A87BAB57B4B509A452B1 /* Pods-ZapAddressBook-FlurrySDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5BF456A95BE21BE92BD146F /* Sources */ = {
+		5A2552CC5C6BD66245B18A0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263A9DF668B4F5FE1FE00418 /* Pods-ZapAddressBook-dummy.m in Sources */,
+				B3C9F4133F68197AB4520301 /* Pods-ZapAddressBook-vCardSerialization-dummy.m in Sources */,
+				8D2F108A10842D74A93AF001 /* vCardSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DF7369525D711AA5419C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C542CE76085B37EFBF080D20 /* Pods-ZapAddressBook-zipzap-dummy.m in Sources */,
+				6354BDBB447D804620D28A18 /* ZZAESDecryptInputStream.mm in Sources */,
+				66D4AA9E5FCEAFD39FDB012A /* ZZArchive.mm in Sources */,
+				5FC9413A57478B353460F1BD /* ZZArchiveEntry.m in Sources */,
+				6F3AE62AF7DE48CB8EA6CEC4 /* ZZConstants.m in Sources */,
+				95A7CAE571F057B330959FBB /* ZZDataChannel.m in Sources */,
+				C86CCC684D6BCECB2711C8DB /* ZZDataChannelOutput.m in Sources */,
+				2E17EA5CE8A9873ACB1850D7 /* ZZDeflateOutputStream.m in Sources */,
+				2BE397EBC3D3692A061A9AC2 /* ZZError.m in Sources */,
+				65B4FC59BE07EF3D504E8FEB /* ZZFileChannel.m in Sources */,
+				55050DDD30F59C622A021DE4 /* ZZFileChannelOutput.m in Sources */,
+				3ABD5F7C9B3004A6FC869D10 /* ZZInflateInputStream.m in Sources */,
+				42BF3DC8AA8F44F3CC53301A /* ZZNewArchiveEntry.mm in Sources */,
+				376AAC482B8C2D81A1F582B4 /* ZZNewArchiveEntryWriter.mm in Sources */,
+				9364F99A761D995FCA78ABB9 /* ZZOldArchiveEntry.mm in Sources */,
+				9D235DBF95CAD0BFC92845B1 /* ZZOldArchiveEntryWriter.mm in Sources */,
+				C30BF9A8829A80ADABB22C10 /* ZZStandardCryptoEngine.cpp in Sources */,
+				56828A695FB8315DE61CA042 /* ZZStandardDecryptInputStream.mm in Sources */,
+				194DBD26CE179C81EA69E070 /* ZZStoreOutputStream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		270C4E25B68A1A7D5446AE8F /* PBXTargetDependency */ = {
+		06BF749F794765C53603B999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZapAddressBook-FlurrySDK";
+			target = 88035A576BFB6836DF6995A3 /* Pods-ZapAddressBook-FlurrySDK */;
+			targetProxy = 01F2D84B77BF9CE832DFE716 /* PBXContainerItemProxy */;
+		};
+		17C911214489E11EA9CE5B75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZapAddressBook-zipzap";
-			target = 38355CBB32842FBFC4ACA786 /* Pods-ZapAddressBook-zipzap */;
-			targetProxy = FAF92BE6C0E141B4975F25D4 /* PBXContainerItemProxy */;
+			target = B406DBEF10BF77381804EEBF /* Pods-ZapAddressBook-zipzap */;
+			targetProxy = B142FA653125EBA18B6856CB /* PBXContainerItemProxy */;
 		};
-		4AFC574EDF3FF188B1465487 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZapAddressBook-iCloudDocumentSync";
-			target = 3E4DA5AAEB3E959D9F2FAE99 /* Pods-ZapAddressBook-iCloudDocumentSync */;
-			targetProxy = 92FF0355DA774CD8C4EE4F73 /* PBXContainerItemProxy */;
-		};
-		703BF50427109FC645B3FAAA /* PBXTargetDependency */ = {
+		5BAC84CAAD7EB102BB082876 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZapAddressBook-vCardSerialization";
-			target = 233F647A4757DFED1B34281C /* Pods-ZapAddressBook-vCardSerialization */;
-			targetProxy = DCF158787273EE4DD1FDD159 /* PBXContainerItemProxy */;
+			target = 87BB7CCB59AEF58344E236A9 /* Pods-ZapAddressBook-vCardSerialization */;
+			targetProxy = 7A0AE154FE4EF5A71F794F10 /* PBXContainerItemProxy */;
+		};
+		C238A2791DA3B9B62161C956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZapAddressBook-iCloudDocumentSync";
+			target = 08E0839A9AC9C028D15A0958 /* Pods-ZapAddressBook-iCloudDocumentSync */;
+			targetProxy = 04AF5728AE44B0D92E8CA860 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		229F96356FEFFDF29E378477 /* Debug */ = {
+		0741E09A7113540034C55111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305C0B139BF154FCEF11D9D3 /* Pods-ZapAddressBook-FlurrySDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-FlurrySDK/Pods-ZapAddressBook-FlurrySDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		124124BF098092CC9038AC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0440B92B3EC445209F7D9E79 /* Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-iCloudDocumentSync/Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1A6F02D8BDC305DB53EA19A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -831,25 +1015,9 @@
 			};
 			name = Debug;
 		};
-		35ED2F8DA92D7E14872832A5 /* Debug */ = {
+		2DFEE1268EFC1F424D43C158 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56A0C308108034EC5093BA54 /* Pods-ZapAddressBook-zipzap-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-zipzap/Pods-ZapAddressBook-zipzap-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3F9066CDCDED316A35CE5F04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56A0C308108034EC5093BA54 /* Pods-ZapAddressBook-zipzap-Private.xcconfig */;
+			baseConfigurationReference = 29812B70CC6C02E8A9C348AC /* Pods-ZapAddressBook-zipzap-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-zipzap/Pods-ZapAddressBook-zipzap-prefix.pch";
@@ -863,55 +1031,7 @@
 			};
 			name = Release;
 		};
-		65D73B4B153A373CFDDEB318 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93DD69692FDECAE5802760A7 /* Pods-ZapAddressBook.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		78C9BC577FDC4404FB688B7D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A6AD864B31AFDBA46105EC9 /* Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-iCloudDocumentSync/Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		84DB99036EB952984E31D6A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A6AD864B31AFDBA46105EC9 /* Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-iCloudDocumentSync/Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8BE0AD4DBA662A14696947C1 /* Release */ = {
+		3DB7246D95EF1D905B077AAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -945,25 +1065,9 @@
 			};
 			name = Release;
 		};
-		C11BCC2D85712D7514FA0469 /* Debug */ = {
+		3F0E213B323FAEC390EF650B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA0F0905643F464124A3DD7A /* Pods-ZapAddressBook.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D80D76C0D46B045A20F709FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F3595AA49697D8A1EAC4C09 /* Pods-ZapAddressBook-vCardSerialization-Private.xcconfig */;
+			baseConfigurationReference = F4F9F1954AC30394177820F7 /* Pods-ZapAddressBook-vCardSerialization-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-vCardSerialization/Pods-ZapAddressBook-vCardSerialization-prefix.pch";
@@ -977,9 +1081,73 @@
 			};
 			name = Release;
 		};
-		EE52B6D706FB1BC64010801C /* Debug */ = {
+		55042A6F4EB286767D55CA40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F3595AA49697D8A1EAC4C09 /* Pods-ZapAddressBook-vCardSerialization-Private.xcconfig */;
+			baseConfigurationReference = 85C7325EB68E524A46E4D4CC /* Pods-ZapAddressBook.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B1943A7B574427DE9B0615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0440B92B3EC445209F7D9E79 /* Pods-ZapAddressBook-iCloudDocumentSync-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-iCloudDocumentSync/Pods-ZapAddressBook-iCloudDocumentSync-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6388C65F487185491649F29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305C0B139BF154FCEF11D9D3 /* Pods-ZapAddressBook-FlurrySDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-FlurrySDK/Pods-ZapAddressBook-FlurrySDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA1D7014C7D925CEBB5A63D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29812B70CC6C02E8A9C348AC /* Pods-ZapAddressBook-zipzap-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-zipzap/Pods-ZapAddressBook-zipzap-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CA7DD776C7EED7E82D378900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F9F1954AC30394177820F7 /* Pods-ZapAddressBook-vCardSerialization-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZapAddressBook-vCardSerialization/Pods-ZapAddressBook-vCardSerialization-prefix.pch";
@@ -993,55 +1161,80 @@
 			};
 			name = Debug;
 		};
+		F1443730A979B66833A2602A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B551A85732784CDD757F7DE8 /* Pods-ZapAddressBook.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22C04D3508E794F4E7800286 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook" */ = {
+		0EB8BA57B6CA5A43595A7847 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C11BCC2D85712D7514FA0469 /* Debug */,
-				65D73B4B153A373CFDDEB318 /* Release */,
+				1A6F02D8BDC305DB53EA19A6 /* Debug */,
+				3DB7246D95EF1D905B077AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F1BCCC8DDB8533E66D0CD57 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-iCloudDocumentSync" */ = {
+		14FA01EFA420CAB0CE2073F7 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84DB99036EB952984E31D6A4 /* Debug */,
-				78C9BC577FDC4404FB688B7D /* Release */,
+				55042A6F4EB286767D55CA40 /* Debug */,
+				F1443730A979B66833A2602A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C00769634C62021C66A095FE /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-vCardSerialization" */ = {
+		2052E1F7898BDADA93A2BFA4 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-FlurrySDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE52B6D706FB1BC64010801C /* Debug */,
-				D80D76C0D46B045A20F709FE /* Release */,
+				6388C65F487185491649F29D /* Debug */,
+				0741E09A7113540034C55111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF911D67B55911D657FC2203 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-zipzap" */ = {
+		384D8C4575D691EBA9500103 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-vCardSerialization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35ED2F8DA92D7E14872832A5 /* Debug */,
-				3F9066CDCDED316A35CE5F04 /* Release */,
+				CA7DD776C7EED7E82D378900 /* Debug */,
+				3F0E213B323FAEC390EF650B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB551D4F083A6CACDA7CB8C3 /* Build configuration list for PBXProject "Pods" */ = {
+		396597935A39CE8990AE8697 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-zipzap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				229F96356FEFFDF29E378477 /* Debug */,
-				8BE0AD4DBA662A14696947C1 /* Release */,
+				BA1D7014C7D925CEBB5A63D4 /* Debug */,
+				2DFEE1268EFC1F424D43C158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15AD01DD09C6EADB9923EE7 /* Build configuration list for PBXNativeTarget "Pods-ZapAddressBook-iCloudDocumentSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124124BF098092CC9038AC36 /* Debug */,
+				5B1943A7B574427DE9B0615E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E24DC634E0C36D3195A48F1F /* Project object */;
+	rootObject = 44A84CDB0AA9134469BC808A /* Project object */;
 }

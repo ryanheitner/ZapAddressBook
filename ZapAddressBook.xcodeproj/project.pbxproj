@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		564EBC814C88E9308B0AA867 /* libPods-ZapAddressBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1A2A945B10265A9313EC4 /* libPods-ZapAddressBook.a */; };
+		BF53CD821B19A003002AC30C /* headers in Resources */ = {isa = PBXBuildFile; fileRef = BF53CD801B19A003002AC30C /* headers */; };
+		BF53CD831B19A003002AC30C /* libAppLovinSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF53CD811B19A003002AC30C /* libAppLovinSdk.a */; };
+		BF53CD861B1A3EB6002AC30C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF53CD851B1A3EB6002AC30C /* libsqlite3.dylib */; };
+		BF53CD881B1A3EC1002AC30C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF53CD871B1A3EC1002AC30C /* libz.dylib */; };
 		BF8B718F1B11FB67005BDFDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B718E1B11FB67005BDFDB /* AppDelegate.swift */; };
 		BF8B71911B11FB67005BDFDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B71901B11FB67005BDFDB /* ViewController.swift */; };
 		BF8B71941B11FB67005BDFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8B71921B11FB67005BDFDB /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		21E4BDEAE2E48B37BC9140C8 /* Pods-ZapAddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapAddressBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZapAddressBook/Pods-ZapAddressBook.release.xcconfig"; sourceTree = "<group>"; };
+		BF53CD801B19A003002AC30C /* headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = headers; path = "Frameworks/applovin-ios-sdk-2.5.4/headers"; sourceTree = "<group>"; };
+		BF53CD811B19A003002AC30C /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppLovinSdk.a; path = "Frameworks/applovin-ios-sdk-2.5.4/libAppLovinSdk.a"; sourceTree = "<group>"; };
+		BF53CD851B1A3EB6002AC30C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BF53CD871B1A3EC1002AC30C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF8B71891B11FB67005BDFDB /* ZapAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZapAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8B718D1B11FB67005BDFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF8B718E1B11FB67005BDFDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF53CD881B1A3EC1002AC30C /* libz.dylib in Frameworks */,
+				BF53CD861B1A3EB6002AC30C /* libsqlite3.dylib in Frameworks */,
 				564EBC814C88E9308B0AA867 /* libPods-ZapAddressBook.a in Frameworks */,
+				BF53CD831B19A003002AC30C /* libAppLovinSdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +56,26 @@
 		5BEF92FC23ECD692662EC330 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF53CD871B1A3EC1002AC30C /* libz.dylib */,
+				BF53CD851B1A3EB6002AC30C /* libsqlite3.dylib */,
 				FBF1A2A945B10265A9313EC4 /* libPods-ZapAddressBook.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF53CD841B19A011002AC30C /* Applovin */ = {
+			isa = PBXGroup;
+			children = (
+				BF53CD801B19A003002AC30C /* headers */,
+				BF53CD811B19A003002AC30C /* libAppLovinSdk.a */,
+			);
+			name = Applovin;
+			sourceTree = "<group>";
+		};
 		BF8B71801B11FB67005BDFDB = {
 			isa = PBXGroup;
 			children = (
+				BF53CD841B19A011002AC30C /* Applovin */,
 				BF8B718B1B11FB67005BDFDB /* ZapAddressBook */,
 				BF8B718A1B11FB67005BDFDB /* Products */,
 				FFB60419099FA00140362421 /* Pods */,
@@ -168,6 +191,7 @@
 				BF8B71941B11FB67005BDFDB /* Main.storyboard in Resources */,
 				BF8B71991B11FB67005BDFDB /* LaunchScreen.xib in Resources */,
 				BF8B71961B11FB67005BDFDB /* Images.xcassets in Resources */,
+				BF53CD821B19A003002AC30C /* headers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,11 +357,82 @@
 				INFOPLIST_FILE = ZapAddressBook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/applovin-ios-sdk-2.5.4",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Flurry_6.5.0\"",
+					"-l\"Pods-ZapAddressBook-FlurrySDK\"",
+					"-l\"Pods-ZapAddressBook-iCloudDocumentSync\"",
+					"-l\"Pods-ZapAddressBook-vCardSerialization\"",
+					"-l\"Pods-ZapAddressBook-zipzap\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdColony\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"EventKitUI\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"HeyzapAds\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VungleSDK\"",
+					"-framework",
+					"\"iAd\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"StoreKit\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ZapAddressBook-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/applovin-ios-sdk-2.5.4/headers/";
 			};
 			name = Debug;
 		};
@@ -353,10 +448,81 @@
 				INFOPLIST_FILE = ZapAddressBook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/applovin-ios-sdk-2.5.4",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Flurry_6.5.0\"",
+					"-l\"Pods-ZapAddressBook-FlurrySDK\"",
+					"-l\"Pods-ZapAddressBook-iCloudDocumentSync\"",
+					"-l\"Pods-ZapAddressBook-vCardSerialization\"",
+					"-l\"Pods-ZapAddressBook-zipzap\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdColony\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"EventKitUI\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"HeyzapAds\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VungleSDK\"",
+					"-framework",
+					"\"iAd\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"StoreKit\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ZapAddressBook-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/applovin-ios-sdk-2.5.4/headers/";
 			};
 			name = Release;
 		};
